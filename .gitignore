@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+.cron.log
+mprop.csv
+mprop_test.csv
+*.tmp
+.venv/
+venv/

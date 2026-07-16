@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Milwaukee County Intel — Motivated Seller Leads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --bg: #0a0d14; --surface: #111520; --border: #1e2535;
+    --accent: #ffd23f; --accent2: #ff4757; --text: #d4dbe8;
+    --text-dim: #5a6475; --green: #39d98a; --orange: #ff7b2e; --blue: #4fb0ff;
+    --mono: 'Space Mono', monospace; --sans: 'Syne', sans-serif;
+  }
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: var(--sans); min-height: 100vh; overflow-x: hidden; }
+
+  header { border-bottom: 1px solid var(--border); padding: 2rem 3rem; display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+  .logo-block h1 { font-size: clamp(1.6rem, 3vw, 2.4rem); font-weight: 800; letter-spacing: -0.04em; line-height: 1; }
+  .logo-block h1 span { color: var(--accent); }
+  .logo-block p { font-family: var(--mono); font-size: 0.72rem; color: var(--text-dim); margin-top: 0.4rem; letter-spacing: 0.08em; text-transform: uppercase; }
+  .stats-row { display: flex; gap: 2rem; flex-wrap: wrap; }
+  .stat { text-align: right; }
+  .stat .num { font-family: var(--mono); font-size: 1.8rem; font-weight: 700; color: var(--accent); line-height: 1; }
+  .stat .lbl { font-size: 0.65rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 0.15rem; }
+
+  .controls { padding: 1.5rem 3rem; display: flex; gap: 0.75rem; align-items: center; flex-wrap: wrap; border-bottom: 1px solid var(--border); }
+  .search-box { flex: 1; min-width: 200px; max-width: 340px; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 0.6rem 1rem; color: var(--text); font-family: var(--mono); font-size: 0.8rem; outline: none; transition: border-color 0.2s; }
+  .search-box:focus { border-color: var(--accent); }
+  .filter-btn { background: var(--surface); border: 1px solid var(--border); color: var(--text-dim); padding: 0.55rem 1rem; border-radius: 4px; font-family: var(--mono); font-size: 0.68rem; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; transition: all 0.15s; white-space: nowrap; }
+  .filter-btn:hover, .filter-btn.active { border-color: var(--accent); color: var(--accent); background: rgba(255,210,63,0.06); }
+  #count-display { font-family: var(--mono); font-size: 0.72rem; color: var(--text-dim); margin-left: auto; }
+  .dl-btn { background: var(--accent); color: #0a0d14; border: none; padding: 0.55rem 1.1rem; border-radius: 4px; font-family: var(--mono); font-size: 0.68rem; font-weight: 700; cursor: pointer; text-transform: uppercase; letter-spacing: 0.05em; transition: opacity 0.15s; }
+  .dl-btn:hover { opacity: 0.85; }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1px; background: var(--border); }
+  .card { background: var(--surface); padding: 1.4rem 1.6rem; cursor: default; transition: background 0.15s; position: relative; overflow: hidden; }
+  .card:hover { background: #161b28; }
+  .card::before { content: ''; position: absolute; top: 0; left: 0; width: 3px; height: 100%; background: var(--score-color, var(--text-dim)); }
+
+  .card-top { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 0.8rem; }
+  .doc-type { font-family: var(--mono); font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim); background: var(--border); padding: 0.2rem 0.5rem; border-radius: 2px; }
+  .score-badge { font-family: var(--mono); font-size: 0.8rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 2px; border: 1px solid var(--score-color, var(--text-dim)); color: var(--score-color, var(--text-dim)); background: rgba(255,255,255,0.03); }
+  .owner { font-size: 1.05rem; font-weight: 600; letter-spacing: -0.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .address { font-family: var(--mono); font-size: 0.72rem; color: var(--text-dim); margin-top: 0.25rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  .card-meta { margin-top: 1rem; display: grid; grid-template-columns: 1fr 1fr; gap: 0.4rem 1rem; }
+  .meta-label { font-family: var(--mono); font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-dim); }
+  .meta-value { font-family: var(--mono); font-size: 0.72rem; color: var(--text); margin-top: 0.1rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  .tags { margin-top: 0.9rem; display: flex; flex-wrap: wrap; gap: 0.35rem; }
+  .tag { font-family: var(--mono); font-size: 0.58rem; padding: 0.15rem 0.45rem; border-radius: 2px; text-transform: uppercase; letter-spacing: 0.06em; background: rgba(255,71,87,0.12); color: var(--accent2); border: 1px solid rgba(255,71,87,0.25); }
+  .tag.vac  { background: rgba(255,71,87,0.14); color: var(--accent2); border-color: rgba(255,71,87,0.3); }
+  .tag.tax  { background: rgba(255,210,63,0.1); color: var(--accent); border-color: rgba(255,210,63,0.25); }
+  .tag.abs  { background: rgba(79,176,255,0.12); color: var(--blue); border-color: rgba(79,176,255,0.3); }
+  .tag.eq   { background: rgba(57,217,138,0.1); color: var(--green); border-color: rgba(57,217,138,0.25); }
+  .tag.llc  { background: rgba(100,149,237,0.12); color: #6495ed; border-color: rgba(100,149,237,0.3); }
+  .tag.new  { background: rgba(255,210,63,0.15); color: var(--accent); border-color: rgba(255,210,63,0.4); }
+  .tag.oos  { background: rgba(255,123,46,0.1); color: var(--orange); border-color: rgba(255,123,46,0.25); }
+
+  .card-link { display: inline-block; margin-top: 0.8rem; font-family: var(--mono); font-size: 0.62rem; color: var(--text-dim); text-decoration: none; border-bottom: 1px solid var(--border); padding-bottom: 1px; transition: color 0.15s; }
+  .card-link:hover { color: var(--accent); border-color: var(--accent); }
+
+  .empty { grid-column: 1/-1; text-align: center; padding: 5rem 2rem; color: var(--text-dim); font-family: var(--mono); font-size: 0.8rem; }
+  footer { padding: 1.5rem 3rem; border-top: 1px solid var(--border); font-family: var(--mono); font-size: 0.65rem; color: var(--text-dim); display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-block">
+    <h1>Milwaukee<span> Intel</span></h1>
+    <p>Milwaukee County · Motivated Seller Intelligence · Weekly</p>
+  </div>
+  <div class="stats-row" id="header-stats"></div>
+</header>
+
+<div class="controls">
+  <input class="search-box" type="text" id="search" placeholder="Search owner, address, tax key…"/>
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="vacant">Vacant</button>
+  <button class="filter-btn" data-filter="tax_delinquent">Tax Delinquent</button>
+  <button class="filter-btn" data-filter="chronic">Chronic</button>
+  <button class="filter-btn" data-filter="absentee">Absentee</button>
+  <button class="filter-btn" data-filter="outofstate">Out of State</button>
+  <button class="filter-btn" data-filter="highequity">High Equity</button>
+  <span id="count-display"></span>
+  <button class="dl-btn" id="dl-csv">↓ CSV</button>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<footer>
+  <span>Data: City of Milwaukee Open Data (MPROP · Treasurer · DNS) + Milwaukee County LIO — public records</span>
+  <span id="footer-ts"></span>
+</footer>
+
+<script>
+let DATA = { records: [] };
+const RENDER_CAP = 600;   // cap DOM nodes; CSV export always uses the full filtered set
+
+async function loadData() {
+  try {
+    const r = await fetch('records.json?_=' + Date.now());
+    DATA = await r.json();
+  } catch (e) {
+    console.warn('Could not load records.json', e);
+  }
+  init();
+}
+
+function scoreColor(s) {
+  if (s >= 70) return '#ffd23f';
+  if (s >= 50) return '#ff7b2e';
+  if (s >= 35) return '#ff4757';
+  return '#5a6475';
+}
+
+const FLAG_CLASS = {
+  'Vacant building':      'vac',
+  'Vacant + delinquent':  'vac',
+  'Tax delinquent':       'tax',
+  'Absentee owner':       'abs',
+  'Out-of-state owner':   'oos',
+  'LLC / corp owner':     'llc',
+  'New this week':        'new',
+};
+function flagClass(f) {
+  if (FLAG_CLASS[f]) return FLAG_CLASS[f];
+  if (f.startsWith('Chronic') || f.indexOf('years delinquent') >= 0 || f.indexOf('tax debt') >= 0 || f.indexOf('Tax debt') >= 0 || f.indexOf('Large tax') >= 0) return 'tax';
+  if (f.startsWith('High equity') || f.startsWith('Equity')) return 'eq';
+  if (f.startsWith('Owned')) return 'llc';
+  return '';
+}
+
+function tagHtml(flags) {
+  return (flags || []).map(f => `<span class="tag ${flagClass(f)}">${f}</span>`).join('');
+}
+
+function money(v) { return v ? '$' + Number(v).toLocaleString() : '—'; }
+
+function cardHtml(r) {
+  const c = scoreColor(r.score);
+  const addr = [r.prop_address, r.prop_city, r.prop_zip].filter(Boolean).join(', ');
+  const link = r.record_url
+    ? `<a class="card-link" href="${r.record_url}" target="_blank" rel="noopener">City assessment record ↗</a>`
+    : '';
+  const occ = r.owner_occupied === false ? 'Absentee' : (r.owner_occupied === true ? 'Owner-occ' : '—');
+  const yrs = (r.delinquent_years && r.delinquent_years.length) ? r.delinquent_years.length + ' yr' + (r.delinquent_years.length > 1 ? 's' : '') : '—';
+  return `
+  <div class="card" style="--score-color:${c}">
+    <div class="card-top">
+      <span class="doc-type">${r.cat_label || 'Lead'}</span>
+      <span class="score-badge">${r.score}</span>
+    </div>
+    <div class="owner">${r.owner || 'Unknown Owner'}</div>
+    <div class="address">${addr || 'No address'}</div>
+    <div class="card-meta">
+      <div><div class="meta-label">Tax Debt</div><div class="meta-value">${money(r.delinquent_total)}</div></div>
+      <div><div class="meta-label">Delinquent</div><div class="meta-value">${yrs}</div></div>
+      <div><div class="meta-label">Assessed</div><div class="meta-value">${money(r.assessed_total)}</div></div>
+      <div><div class="meta-label">Occupancy</div><div class="meta-value">${occ}</div></div>
+      <div><div class="meta-label">Owner Mail</div><div class="meta-value">${[r.mail_city, r.mail_state].filter(Boolean).join(', ') || '—'}</div></div>
+      <div><div class="meta-label">Use / Built</div><div class="meta-value">${(r.land_use_label || r.land_use || '—')}${r.year_built ? ' · ' + r.year_built : ''}</div></div>
+    </div>
+    <div class="tags">${tagHtml(r.flags)}</div>
+    ${link}
+  </div>`;
+}
+
+function renderCards(records) {
+  const grid = document.getElementById('grid');
+  const shown = records.slice(0, RENDER_CAP);
+  document.getElementById('count-display').textContent =
+    records.length > RENDER_CAP ? `${RENDER_CAP} of ${records.length} leads` : `${records.length} leads`;
+  if (!records.length) {
+    grid.innerHTML = '<div class="empty">No leads match your filter.</div>';
+    return;
+  }
+  grid.innerHTML = shown.map(cardHtml).join('');
+}
+
+function initStats() {
+  const records = DATA.records || [];
+  const high = records.filter(r => r.score >= 70).length;
+  const vacant = records.filter(r => (r.signals || []).includes('vacant')).length;
+  const absentee = records.filter(r => r.owner_occupied === false).length;
+  document.getElementById('header-stats').innerHTML = `
+    <div class="stat"><div class="num">${records.length.toLocaleString()}</div><div class="lbl">Total Leads</div></div>
+    <div class="stat"><div class="num">${high.toLocaleString()}</div><div class="lbl">High ≥70</div></div>
+    <div class="stat"><div class="num">${vacant.toLocaleString()}</div><div class="lbl">Vacant</div></div>
+    <div class="stat"><div class="num">${absentee.toLocaleString()}</div><div class="lbl">Absentee</div></div>
+  `;
+  const ts = DATA.fetched_at ? new Date(DATA.fetched_at).toLocaleString() : '';
+  if (ts) document.getElementById('footer-ts').textContent = 'Updated: ' + ts;
+}
+
+let currentFilter = 'all';
+let currentSearch = '';
+
+function matchesFilter(r) {
+  switch (currentFilter) {
+    case 'all':           return true;
+    case 'vacant':        return (r.signals || []).includes('vacant');
+    case 'tax_delinquent':return (r.signals || []).includes('tax_delinquent');
+    case 'chronic':       return (r.delinquent_years || []).length >= 3;
+    case 'absentee':      return r.owner_occupied === false;
+    case 'outofstate':    return r.mail_state && r.mail_state.toUpperCase() !== 'WI';
+    case 'highequity':    return r.assessed_total >= 250000;
+    default:              return true;
+  }
+}
+
+function filtered() {
+  let records = (DATA.records || []).filter(matchesFilter);
+  if (currentSearch) {
+    const q = currentSearch.toLowerCase();
+    records = records.filter(r =>
+      (r.owner || '').toLowerCase().includes(q) ||
+      (r.prop_address || '').toLowerCase().includes(q) ||
+      (r.taxkey || '').toLowerCase().includes(q) ||
+      (r.mail_city || '').toLowerCase().includes(q)
+    );
+  }
+  return records;
+}
+
+function applyFilters() { renderCards(filtered()); }
+
+document.getElementById('dl-csv').addEventListener('click', () => {
+  const records = filtered();
+  const cols = ['taxkey','owner','prop_address','prop_city','prop_zip',
+    'mail_address','mail_city','mail_state','mail_zip','land_use_label',
+    'assessed_total','delinquent_total','delinquent_years','vacant_since',
+    'owner_occupied','cat_label','signals','score','flags','record_url'];
+  const rows = [cols.join(',')];
+  records.forEach(r => {
+    rows.push(cols.map(c => {
+      let v = Array.isArray(r[c]) ? r[c].join(' | ') : (r[c] ?? '');
+      return `"${String(v).replace(/"/g,'""')}"`;
+    }).join(','));
+  });
+  const blob = new Blob([rows.join('\n')], { type: 'text/csv' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `milwaukee_leads_${new Date().toISOString().slice(0,10)}.csv`;
+  a.click();
+});
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentFilter = btn.dataset.filter;
+    applyFilters();
+  });
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  currentSearch = e.target.value.trim();
+  applyFilters();
+});
+
+function init() { initStats(); applyFilters(); }
+loadData();
+</script>
+</body>
+</html>

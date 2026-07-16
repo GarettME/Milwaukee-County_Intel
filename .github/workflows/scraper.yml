@@ -1,0 +1,110 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Milwaukee County Intel — Motivated Seller Lead Scraper (WEEKLY)
+#
+# Schedule : Every Monday at 08:00 UTC (03:00 CT / 02:00 CDT)
+# Manual   : Actions tab → "Run workflow"
+#
+# Pure open-data pull (City of Milwaukee CKAN + Milwaukee County LIO) — no
+# browser, no proxy, no API key required. Runs in well under a minute.
+#
+# Outputs
+#   data/records.json       — ranked lead data
+#   data/ghl_export.csv     — GoHighLevel import CSV
+#   dashboard/records.json  — copy for the GitHub Pages dashboard
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: Scrape Milwaukee County Leads
+
+on:
+  schedule:
+    - cron: "0 8 * * 1"   # 08:00 UTC every Monday (weekly)
+
+  workflow_dispatch:
+    inputs:
+      min_delinquent:
+        description: "Drop delinquent balances below this dollar amount"
+        required: false
+        default: "0"
+        type: string
+
+jobs:
+  scrape:
+    name: Run Scraper
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    env:
+      MILW_MIN_DELINQUENT: ${{ github.event.inputs.min_delinquent || '0' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scraper/requirements.txt
+
+      - name: Create output directories
+        run: mkdir -p data dashboard
+
+      - name: Run scraper
+        run: python scraper/fetch.py
+
+      - name: Validate JSON output
+        run: |
+          python -c "
+          import json
+          with open('data/records.json') as f:
+              data = json.load(f)
+          total = data.get('total', 0)
+          print(f'records.json valid — {total} leads')
+          recs = data.get('records', [])
+          if recs:
+              top = recs[0]
+              print(f'   Top lead: {top[\"owner\"]} (score={top[\"score\"]})')
+          "
+
+      - name: Upload JSON artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: milwaukee-leads-json-${{ github.run_number }}
+          path: data/records.json
+          retention-days: 90
+
+      - name: Upload GHL CSV artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: milwaukee-ghl-csv-${{ github.run_number }}
+          path: data/ghl_export.csv
+          retention-days: 90
+
+      - name: Commit results
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/records.json data/ghl_export.csv dashboard/records.json
+          TOTAL=$(python -c "import json; d=json.load(open('data/records.json')); print(d.get('total', 0))")
+          git diff --cached --quiet || \
+            git commit -m "chore: weekly Milwaukee leads [$(date -u '+%Y-%m-%d %H:%M UTC')] — ${TOTAL} leads"
+          git push
+
+      - name: Deploy dashboard to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/
+
+      - name: Deploy Pages
+        uses: actions/deploy-pages@v4

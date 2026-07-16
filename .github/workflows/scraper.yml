@@ -15,6 +15,7 @@
 
 name: Scrape Milwaukee County Leads
 
+# Runs weekly (Mondays) — pure open-data pull, no secrets required.
 on:
   schedule:
     - cron: "0 8 * * 1"   # 08:00 UTC every Monday (weekly)

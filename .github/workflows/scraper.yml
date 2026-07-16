@@ -44,10 +44,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Set up Python 3.11
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.11"
           cache: "pip"
@@ -79,14 +79,14 @@ jobs:
           "
 
       - name: Upload JSON artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: milwaukee-leads-json-${{ github.run_number }}
           path: data/records.json
           retention-days: 90
 
       - name: Upload GHL CSV artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: milwaukee-ghl-csv-${{ github.run_number }}
           path: data/ghl_export.csv
@@ -103,9 +103,9 @@ jobs:
           git push
 
       - name: Deploy dashboard to GitHub Pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: dashboard/
 
       - name: Deploy Pages
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

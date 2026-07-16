@@ -79,14 +79,14 @@ jobs:
           "
 
       - name: Upload JSON artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: milwaukee-leads-json-${{ github.run_number }}
           path: data/records.json
           retention-days: 90
 
       - name: Upload GHL CSV artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: milwaukee-ghl-csv-${{ github.run_number }}
           path: data/ghl_export.csv

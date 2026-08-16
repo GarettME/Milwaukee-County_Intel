@@ -433,6 +433,9 @@ _CAT_PRECEDENCE = [
 ]
 
 
+_NAME_SUFFIXES = {"JR", "SR", "I", "II", "III", "IV", "V", "MD", "DDS", "ESQ"}
+
+
 def _entity_owner(name: str) -> bool:
     import re
     return bool(re.search(r"\b(LLC|INC|CORP|CO|LP|LLP|LTD|TRUST|PROPERTIES|INVESTMENT|HOLDINGS|REALTY|GROUP|BANK)\b",
@@ -588,10 +591,22 @@ def save_ghl_csv(leads: list[Lead]) -> None:
         # Entities keep the whole name in Last Name so GHL doesn't mangle them.
         if _entity_owner(full):
             return "", full.strip()
-        parts = full.strip().split()
+        # Milwaukee's roll writes owners given-name first — "NORMAN E SUTTON",
+        # "RITA L JOHNSON" — not surname first. Sampled against common US
+        # surnames the last position wins 1124 to 111, so first = leading
+        # token, last = trailing token once any suffix is dropped.
+        parts = [p for p in full.replace(",", " ").split() if p]
+        # Joint owners ("GEORGE & LUCILLE HORVATH") share the trailing surname;
+        # take the first-listed given name and let the surname carry.
+        if "&" in parts:
+            parts = [p for p in parts if p != "&"]
+        while len(parts) > 2 and parts[-1].upper().strip(".") in _NAME_SUFFIXES:
+            parts.pop()
         if not parts:
             return "", ""
-        return (" ".join(parts[1:]), parts[0]) if len(parts) > 1 else (parts[0], "")
+        if len(parts) == 1:
+            return parts[0], ""
+        return parts[0], parts[-1]
 
     with open(GHL_CSV, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=cols)

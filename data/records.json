@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-08-24T08:56:41.102739+00:00",
+  "fetched_at": "2026-08-31T16:04:52.791212+00:00",
   "source": "City of Milwaukee Open Data (MPROP, Treasurer, DNS) + Milwaukee County LIO",
   "county": "Milwaukee County, WI",
-  "total": 12572,
-  "with_address": 12572,
+  "total": 12581,
+  "with_address": 12581,
   "records": [
     {
       "taxkey": "0449952110",
@@ -3359,8 +3359,8 @@
       "assessed_land": 6600.0,
       "assessed_improvement": 56200.0,
       "assessed_total": 62800.0,
-      "convey_date": "2022-11-14",
-      "convey_price": 450.0,
+      "convey_date": "2026-07-28",
+      "convey_price": 513.0,
       "owner_occupied": false,
       "cat": "vacant",
       "cat_label": "Vacant Building",
@@ -6559,8 +6559,8 @@
       "assessed_land": 17500.0,
       "assessed_improvement": 34800.0,
       "assessed_total": 52300.0,
-      "convey_date": "2021-12-28",
-      "convey_price": 81.0,
+      "convey_date": "2026-07-28",
+      "convey_price": 513.0,
       "owner_occupied": false,
       "cat": "vacant",
       "cat_label": "Vacant Building",
@@ -7725,6 +7725,51 @@
       ],
       "score": 99,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3880504000"
+    },
+    {
+      "taxkey": "3882301000",
+      "owner": "DAVID GROSSE",
+      "owner2": "",
+      "prop_address": "3101 W HIGHLAND BL",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53208",
+      "mail_address": "2830 W STATE ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53208",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1920,
+      "units": 1,
+      "assessed_land": 34400.0,
+      "assessed_improvement": 126800.0,
+      "assessed_total": 161200.0,
+      "convey_date": "",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "tax_delinquent",
+        "vacant"
+      ],
+      "delinquent_years": [
+        "2024",
+        "2025"
+      ],
+      "delinquent_total": 5596.91,
+      "vacant_since": "2026-08-21",
+      "flags": [
+        "Tax delinquent",
+        "Tax debt \u2265$5k",
+        "2 years delinquent",
+        "Vacant building",
+        "Vacant + delinquent",
+        "Absentee owner"
+      ],
+      "score": 99,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3882301000"
     },
     {
       "taxkey": "3891549000",
@@ -10281,6 +10326,50 @@
       ],
       "score": 94,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2480218000"
+    },
+    {
+      "taxkey": "2501061100",
+      "owner": "POWER LOUNGE & GRILLE LLC",
+      "owner2": "",
+      "prop_address": "4323 N 60TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53216",
+      "mail_address": "124 ALLARD AVE",
+      "mail_city": "GREEN BAY",
+      "mail_state": "WI",
+      "mail_zip": "54303",
+      "land_use": "5812",
+      "land_use_label": "Eating Places",
+      "year_built": 1928,
+      "units": 2,
+      "assessed_land": 38000.0,
+      "assessed_improvement": 209300.0,
+      "assessed_total": 247300.0,
+      "convey_date": "2023-12-18",
+      "convey_price": 750.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "tax_delinquent",
+        "vacant"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 9566.38,
+      "vacant_since": "2026-01-20",
+      "flags": [
+        "Tax delinquent",
+        "Tax debt \u2265$5k",
+        "Vacant building",
+        "Vacant + delinquent",
+        "Absentee owner",
+        "LLC / corp owner"
+      ],
+      "score": 94,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2501061100"
     },
     {
       "taxkey": "2690434000",
@@ -18416,8 +18505,8 @@
       "year_built": 1923,
       "units": 30,
       "assessed_land": 1463900.0,
-      "assessed_improvement": 6439700.0,
-      "assessed_total": 7903600.0,
+      "assessed_improvement": 5211200.0,
+      "assessed_total": 6675100.0,
       "convey_date": "2015-10-30",
       "convey_price": 0.0,
       "owner_occupied": false,
@@ -23111,8 +23200,8 @@
       "assessed_land": 16400.0,
       "assessed_improvement": 99800.0,
       "assessed_total": 116200.0,
-      "convey_date": "2021-08-26",
-      "convey_price": 5700.0,
+      "convey_date": "2026-07-28",
+      "convey_price": 342.0,
       "owner_occupied": false,
       "cat": "vacant",
       "cat_label": "Vacant Building",
@@ -31183,6 +31272,48 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2490010000"
     },
     {
+      "taxkey": "2490132100",
+      "owner": "HERBERT LUCAS",
+      "owner2": "",
+      "prop_address": "4083 N 51ST BL",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53216",
+      "mail_address": "4083 N 51ST BOULEVARD",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53216",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1926,
+      "units": 1,
+      "assessed_land": 5900.0,
+      "assessed_improvement": 105600.0,
+      "assessed_total": 111500.0,
+      "convey_date": "2026-04-16",
+      "convey_price": 217.5,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "tax_delinquent",
+        "vacant"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 3121.45,
+      "vacant_since": "2026-08-18",
+      "flags": [
+        "Tax delinquent",
+        "Vacant building",
+        "Vacant + delinquent",
+        "Absentee owner"
+      ],
+      "score": 79,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2490132100"
+    },
+    {
       "taxkey": "2700959000",
       "owner": "SUHUT CEMAL GUNGORMUS",
       "owner2": "",
@@ -35369,6 +35500,49 @@
       ],
       "score": 78,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3130401100"
+    },
+    {
+      "taxkey": "3141146000",
+      "owner": "BN TOWING LLC",
+      "owner2": "",
+      "prop_address": "3060 N BUFFUM ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53212",
+      "mail_address": "3060 N BUFFUM ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53212",
+      "land_use": "8820",
+      "land_use_label": "Two Family Residential",
+      "year_built": 1908,
+      "units": 2,
+      "assessed_land": 11300.0,
+      "assessed_improvement": 41100.0,
+      "assessed_total": 52400.0,
+      "convey_date": "2025-07-03",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "tax_delinquent",
+        "vacant"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 894.99,
+      "vacant_since": "2026-08-25",
+      "flags": [
+        "Tax delinquent",
+        "Vacant building",
+        "Vacant + delinquent",
+        "Absentee owner",
+        "LLC / corp owner"
+      ],
+      "score": 78,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3141146000"
     },
     {
       "taxkey": "3141291000",
@@ -47735,7 +47909,7 @@
       "assessed_land": 0.0,
       "assessed_improvement": 0.0,
       "assessed_total": 0.0,
-      "convey_date": "2026-01-12",
+      "convey_date": "2026-06-17",
       "convey_price": 238.8,
       "owner_occupied": false,
       "cat": "vacant",
@@ -57283,6 +57457,45 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2880751000"
     },
     {
+      "taxkey": "3632577100",
+      "owner": "CHRISTOPHER P GILLING",
+      "owner2": "MARY THERESE GILLING",
+      "prop_address": "1833 W STATE ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53233",
+      "mail_address": "PO BOX 482",
+      "mail_city": "MARION",
+      "mail_state": "WI",
+      "mail_zip": "54950",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1885,
+      "units": 1,
+      "assessed_land": 35100.0,
+      "assessed_improvement": 613500.0,
+      "assessed_total": 648600.0,
+      "convey_date": "",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-08-21",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "High equity (\u2265$500k)",
+        "New this week"
+      ],
+      "score": 71,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3632577100"
+    },
+    {
       "taxkey": "3921795000",
       "owner": "ERIN JACKSON",
       "owner2": "",
@@ -58197,8 +58410,8 @@
       "year_built": 1905,
       "units": 1,
       "assessed_land": 6400.0,
-      "assessed_improvement": 78100.0,
-      "assessed_total": 84500.0,
+      "assessed_improvement": 45400.0,
+      "assessed_total": 51800.0,
       "convey_date": "2026-03-06",
       "convey_price": 184.8,
       "owner_occupied": false,
@@ -61917,6 +62130,48 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4600204100"
     },
     {
+      "taxkey": "4620916000",
+      "owner": "LON HICKS",
+      "owner2": "",
+      "prop_address": "515 W MAPLE ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53204",
+      "mail_address": "515 W MAPLE ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53204",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1905,
+      "units": 1,
+      "assessed_land": 6500.0,
+      "assessed_improvement": 53000.0,
+      "assessed_total": 59500.0,
+      "convey_date": "1976-09-01",
+      "convey_price": 10.9,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "tax_delinquent",
+        "vacant"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 1037.76,
+      "vacant_since": "2026-08-26",
+      "flags": [
+        "Tax delinquent",
+        "Vacant building",
+        "Vacant + delinquent",
+        "Owned 15+ years"
+      ],
+      "score": 70,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4620916000"
+    },
+    {
       "taxkey": "4621103000",
       "owner": "MAN F ZHANG",
       "owner2": "",
@@ -63356,45 +63611,6 @@
       ],
       "score": 70,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2812648110"
-    },
-    {
-      "taxkey": "2840215000",
-      "owner": "GRANDIOSE DREAMS LLC",
-      "owner2": "",
-      "prop_address": "1801 W KEEFE AV",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53206",
-      "mail_address": "3955 N 78TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53222",
-      "land_use": "8899",
-      "land_use_label": "Mixed-Residential/Commercial",
-      "year_built": 1920,
-      "units": 4,
-      "assessed_land": 2000.0,
-      "assessed_improvement": 70768000.0,
-      "assessed_total": 70770000.0,
-      "convey_date": "2025-10-13",
-      "convey_price": 0.3,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2019-01-14",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "High equity (\u2265$500k)",
-        "LLC / corp owner"
-      ],
-      "score": 70,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2840215000"
     },
     {
       "taxkey": "2850125000",
@@ -72496,26 +72712,26 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=6900219000"
     },
     {
-      "taxkey": "1730351000",
-      "owner": "EVOLUTION PROPERTIES LLC",
+      "taxkey": "5940427110",
+      "owner": "BD1 GROUP LLC",
       "owner2": "",
-      "prop_address": "5500/5532 W SILVER SPRING DR",
+      "prop_address": "325 E BOLIVAR AV",
       "prop_city": "Milwaukee",
       "prop_state": "WI",
-      "prop_zip": "53218",
-      "mail_address": "9134 W SILVER SPRING DR",
-      "mail_city": "MILWAUKEE",
+      "prop_zip": "53207",
+      "mail_address": "12440 N LAKE DR",
+      "mail_city": "MEQUON",
       "mail_state": "WI",
-      "mail_zip": "53225",
-      "land_use": "181",
-      "land_use_label": "Ornamental Nursery Products",
-      "year_built": 1949,
-      "units": 4,
-      "assessed_land": 163600.0,
-      "assessed_improvement": 135900.0,
-      "assessed_total": 299500.0,
-      "convey_date": "2025-01-22",
-      "convey_price": 900.0,
+      "mail_zip": "53092",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1912,
+      "units": 1,
+      "assessed_land": 81000.0,
+      "assessed_improvement": 250300.0,
+      "assessed_total": 331300.0,
+      "convey_date": "2026-05-21",
+      "convey_price": 720.0,
       "owner_occupied": false,
       "cat": "vacant",
       "cat_label": "Vacant Building",
@@ -72524,7 +72740,7 @@
       ],
       "delinquent_years": [],
       "delinquent_total": null,
-      "vacant_since": "2026-08-18",
+      "vacant_since": "2026-08-24",
       "flags": [
         "Vacant building",
         "Absentee owner",
@@ -72533,7 +72749,7 @@
         "New this week"
       ],
       "score": 68,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1730351000"
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5940427110"
     },
     {
       "taxkey": "1450603000",
@@ -72708,49 +72924,6 @@
       ],
       "score": 67,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1909721100"
-    },
-    {
-      "taxkey": "2470913000",
-      "owner": "KEVA L POWELL",
-      "owner2": "",
-      "prop_address": "4114 N 40TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53216",
-      "mail_address": "3070 APPLEWOOD DR SW",
-      "mail_city": "MARIETTA",
-      "mail_state": "GA",
-      "mail_zip": "30064",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1936,
-      "units": 1,
-      "assessed_land": 5900.0,
-      "assessed_improvement": 90700.0,
-      "assessed_total": 96600.0,
-      "convey_date": "2016-05-23",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2024",
-        "2025"
-      ],
-      "delinquent_total": 5640.3,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Tax debt \u2265$5k",
-        "2 years delinquent",
-        "Absentee owner",
-        "Out-of-state owner"
-      ],
-      "score": 67,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2470913000"
     },
     {
       "taxkey": "2520727000",
@@ -74411,6 +74584,49 @@
       ],
       "score": 66,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=0420122000"
+    },
+    {
+      "taxkey": "0430399000",
+      "owner": "GLORIA J TUCKER",
+      "owner2": "",
+      "prop_address": "8588 N SERVITE DR",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53223",
+      "mail_address": "8588 N SERVITE DR #3",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53223",
+      "land_use": "8811",
+      "land_use_label": "Condo",
+      "year_built": 1974,
+      "units": 1,
+      "assessed_land": 12500.0,
+      "assessed_improvement": 111200.0,
+      "assessed_total": 123700.0,
+      "convey_date": "2026-06-17",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2023",
+        "2024",
+        "2025"
+      ],
+      "delinquent_total": 5227.54,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "Tax debt \u2265$5k",
+        "3 years delinquent",
+        "Absentee owner"
+      ],
+      "score": 66,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=0430399000"
     },
     {
       "taxkey": "0430456000",
@@ -78350,6 +78566,48 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3920821000"
     },
     {
+      "taxkey": "3921562000",
+      "owner": "PRESERVE REDEVELOPMENT PARTNERS LLC",
+      "owner2": "",
+      "prop_address": "819 N CASS ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53202",
+      "mail_address": "819 N CASS STREET UNIT B",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53202",
+      "land_use": "8899",
+      "land_use_label": "Mixed-Residential/Commercial",
+      "year_built": 1897,
+      "units": 8,
+      "assessed_land": 180000.0,
+      "assessed_improvement": 384000.0,
+      "assessed_total": 564000.0,
+      "convey_date": "2023-07-28",
+      "convey_price": 1683.6,
+      "owner_occupied": false,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 7847.16,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "Tax debt \u2265$5k",
+        "Absentee owner",
+        "High equity (\u2265$500k)",
+        "LLC / corp owner"
+      ],
+      "score": 66,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3921562000"
+    },
+    {
       "taxkey": "3960398111",
       "owner": "KIP & HENRY LLC",
       "owner2": "",
@@ -79983,44 +80241,6 @@
       ],
       "score": 66,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1580396000"
-    },
-    {
-      "taxkey": "1710443000",
-      "owner": "FREDDIE MAC SLST 2023-1 PART",
-      "owner2": "",
-      "prop_address": "5755 N 41ST ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53209",
-      "mail_address": "3501 OLYMPUS BLVD STE 500",
-      "mail_city": "DALLAS",
-      "mail_state": "TX",
-      "mail_zip": "75019",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1951,
-      "units": 1,
-      "assessed_land": 8800.0,
-      "assessed_improvement": 133800.0,
-      "assessed_total": 142600.0,
-      "convey_date": "2025-12-15",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2026-04-13",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "Out-of-state owner"
-      ],
-      "score": 66,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1710443000"
     },
     {
       "taxkey": "1719902000",
@@ -82543,45 +82763,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3491764100"
     },
     {
-      "taxkey": "3491765100",
-      "owner": "BLACK OAK HOME SOLUTIONS LLC",
-      "owner2": "",
-      "prop_address": "1917 N 30TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53208",
-      "mail_address": "3815 S OTHELLO ST STE 148",
-      "mail_city": "SEATTLE",
-      "mail_state": "WA",
-      "mail_zip": "98118",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1899,
-      "units": 1,
-      "assessed_land": 10100.0,
-      "assessed_improvement": 76100.0,
-      "assessed_total": 86200.0,
-      "convey_date": "2024-03-15",
-      "convey_price": 375.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2025-10-31",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "Out-of-state owner",
-        "LLC / corp owner"
-      ],
-      "score": 66,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3491765100"
-    },
-    {
       "taxkey": "3512664000",
       "owner": "BACK BAY PARK LLC",
       "owner2": "",
@@ -84537,7 +84718,7 @@
     {
       "taxkey": "3290513000",
       "owner": "NITZAN CHAI EZRA",
-      "owner2": "YUVAL CHAI EZRA",
+      "owner2": "",
       "prop_address": "2521 N 51ST ST",
       "prop_city": "Milwaukee",
       "prop_state": "WI",
@@ -84553,8 +84734,8 @@
       "assessed_land": 6800.0,
       "assessed_improvement": 114600.0,
       "assessed_total": 121400.0,
-      "convey_date": "2023-10-19",
-      "convey_price": 195.0,
+      "convey_date": "2026-07-17",
+      "convey_price": 0.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -96430,6 +96611,45 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1539994215"
     },
     {
+      "taxkey": "1730351000",
+      "owner": "EVOLUTION PROPERTIES LLC",
+      "owner2": "",
+      "prop_address": "5500/5532 W SILVER SPRING DR",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53218",
+      "mail_address": "9134 W SILVER SPRING DR",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53225",
+      "land_use": "181",
+      "land_use_label": "Ornamental Nursery Products",
+      "year_built": 1949,
+      "units": 4,
+      "assessed_land": 163600.0,
+      "assessed_improvement": 135900.0,
+      "assessed_total": 299500.0,
+      "convey_date": "2025-01-22",
+      "convey_price": 900.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-08-18",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "Equity \u2265$250k",
+        "LLC / corp owner"
+      ],
+      "score": 63,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1730351000"
+    },
+    {
       "taxkey": "1799982321",
       "owner": "DONALD M FRITZKE, SR. REV",
       "owner2": "TRUST 12/21/00, DONALD M",
@@ -97444,6 +97664,45 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4660812000"
     },
     {
+      "taxkey": "4703313000",
+      "owner": "REAL ESTATE ASSET HOLDINGS O",
+      "owner2": "",
+      "prop_address": "2132 S 23RD ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53215",
+      "mail_address": "PO BOX 210098",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53221",
+      "land_use": "8820",
+      "land_use_label": "Two Family Residential",
+      "year_built": 1900,
+      "units": 2,
+      "assessed_land": 12200.0,
+      "assessed_improvement": 109900.0,
+      "assessed_total": 122100.0,
+      "convey_date": "2026-03-10",
+      "convey_price": 180.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-08-24",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "LLC / corp owner",
+        "New this week"
+      ],
+      "score": 63,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4703313000"
+    },
+    {
       "taxkey": "4950005100",
       "owner": "LINCOLN FOREST PLAZA INC",
       "owner2": "",
@@ -97875,49 +98134,6 @@
       ],
       "score": 62,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=0340795000"
-    },
-    {
-      "taxkey": "0430399000",
-      "owner": "GLORIA J TUCKER",
-      "owner2": "RHODESSA MC DADE",
-      "prop_address": "8588 N SERVITE DR",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53223",
-      "mail_address": "8588 N SERVITE DR #3",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53223",
-      "land_use": "8811",
-      "land_use_label": "Condo",
-      "year_built": 1974,
-      "units": 1,
-      "assessed_land": 12500.0,
-      "assessed_improvement": 111200.0,
-      "assessed_total": 123700.0,
-      "convey_date": "1992-09-17",
-      "convey_price": 168.0,
-      "owner_occupied": true,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2023",
-        "2024",
-        "2025"
-      ],
-      "delinquent_total": 5227.54,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Tax debt \u2265$5k",
-        "3 years delinquent",
-        "Owned 15+ years"
-      ],
-      "score": 62,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=0430399000"
     },
     {
       "taxkey": "0790247000",
@@ -102467,8 +102683,8 @@
       "mail_city": "COLUMBIA",
       "mail_state": "MO",
       "mail_zip": "65201",
-      "land_use": "7319",
-      "land_use_label": "Advertising, Nec",
+      "land_use": "7359",
+      "land_use_label": "Equipment Rental And Leasing, Nec",
       "year_built": 1974,
       "units": 2,
       "assessed_land": 0.0,
@@ -103182,45 +103398,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3240672100"
     },
     {
-      "taxkey": "3260504100",
-      "owner": "MC KINLEY DISMANTLING INC",
-      "owner2": "",
-      "prop_address": "2545 N 30TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53210",
-      "mail_address": "PO BOX 100641",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53210",
-      "land_use": "1795",
-      "land_use_label": "Wrecking And Demolition Work",
-      "year_built": 1989,
-      "units": 1,
-      "assessed_land": 6900.0,
-      "assessed_improvement": 134200.0,
-      "assessed_total": 141100.0,
-      "convey_date": "1993-02-09",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2025-12-10",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "LLC / corp owner",
-        "Owned 15+ years"
-      ],
-      "score": 62,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3260504100"
-    },
-    {
       "taxkey": "3291658000",
       "owner": "GARRIC NAHAPETIAN",
       "owner2": "",
@@ -103410,6 +103587,44 @@
       ],
       "score": 62,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3550324000"
+    },
+    {
+      "taxkey": "3641791100",
+      "owner": "ESTATE OF BETTY JO GARRETT",
+      "owner2": "",
+      "prop_address": "1434 N 26TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53205",
+      "mail_address": "1701 King James St Unit 203",
+      "mail_city": "Las Vegas",
+      "mail_state": "NV",
+      "mail_zip": "89144",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1885,
+      "units": 1,
+      "assessed_land": 0.0,
+      "assessed_improvement": 0.0,
+      "assessed_total": 0.0,
+      "convey_date": "2025-12-26",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2025-01-22",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "Out-of-state owner"
+      ],
+      "score": 62,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3641791100"
     },
     {
       "taxkey": "1391362000",
@@ -109649,6 +109864,45 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=6690227000"
     },
     {
+      "taxkey": "2240422100",
+      "owner": "DTK PROPERTIES LLC",
+      "owner2": "",
+      "prop_address": "4731 N 76TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53218",
+      "mail_address": "4731 N 76TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53218",
+      "land_use": "7363",
+      "land_use_label": "Help Supply Services",
+      "year_built": 1958,
+      "units": 4,
+      "assessed_land": 13300.0,
+      "assessed_improvement": 286100.0,
+      "assessed_total": 299400.0,
+      "convey_date": "2019-08-16",
+      "convey_price": 177.0,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-02-05",
+      "flags": [
+        "Vacant building",
+        "Equity \u2265$250k",
+        "LLC / corp owner",
+        "New this week"
+      ],
+      "score": 60,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2240422100"
+    },
+    {
       "taxkey": "0341331110",
       "owner": "AGKW HOLDINGS  LLC",
       "owner2": "",
@@ -114038,8 +114292,8 @@
       "assessed_land": 3100.0,
       "assessed_improvement": 82200.0,
       "assessed_total": 85300.0,
-      "convey_date": "2021-02-19",
-      "convey_price": 138.0,
+      "convey_date": "2026-04-06",
+      "convey_price": 163.5,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -114272,6 +114526,48 @@
       ],
       "score": 59,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2470542000"
+    },
+    {
+      "taxkey": "2470913000",
+      "owner": "KEVA L POWELL",
+      "owner2": "",
+      "prop_address": "4114 N 40TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53216",
+      "mail_address": "3070 APPLEWOOD DR SW",
+      "mail_city": "MARIETTA",
+      "mail_state": "GA",
+      "mail_zip": "30064",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1936,
+      "units": 1,
+      "assessed_land": 5900.0,
+      "assessed_improvement": 90700.0,
+      "assessed_total": 96600.0,
+      "convey_date": "2026-07-30",
+      "convey_price": 150.0,
+      "owner_occupied": true,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2024",
+        "2025"
+      ],
+      "delinquent_total": 5640.3,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "Tax debt \u2265$5k",
+        "2 years delinquent",
+        "Out-of-state owner"
+      ],
+      "score": 59,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2470913000"
     },
     {
       "taxkey": "2471445000",
@@ -118221,8 +118517,8 @@
       "mail_city": "GLENDALE",
       "mail_state": "WI",
       "mail_zip": "53217",
-      "land_use": "8661",
-      "land_use_label": "Religious Organizations",
+      "land_use": "9999",
+      "land_use_label": "Commercial Mixed Use",
       "year_built": 1911,
       "units": 2,
       "assessed_land": 8200.0,
@@ -122317,48 +122613,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3881416100"
     },
     {
-      "taxkey": "3882301000",
-      "owner": "DAVID GROSSE",
-      "owner2": "",
-      "prop_address": "3101 W HIGHLAND BL",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53208",
-      "mail_address": "2830 W STATE ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53208",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1920,
-      "units": 1,
-      "assessed_land": 34400.0,
-      "assessed_improvement": 126800.0,
-      "assessed_total": 161200.0,
-      "convey_date": "",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2024",
-        "2025"
-      ],
-      "delinquent_total": 5596.91,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Tax debt \u2265$5k",
-        "2 years delinquent",
-        "Absentee owner"
-      ],
-      "score": 59,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3882301000"
-    },
-    {
       "taxkey": "3890202000",
       "owner": "WHITEFIELD & GARDNER INVESTMENTS INC",
       "owner2": "",
@@ -126300,6 +126554,48 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5410066000"
     },
     {
+      "taxkey": "5471259000",
+      "owner": "JENNIE M MCGRATH",
+      "owner2": "",
+      "prop_address": "3553 S LENOX ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53207",
+      "mail_address": "3553  S LENOX ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53207",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1940,
+      "units": 1,
+      "assessed_land": 60900.0,
+      "assessed_improvement": 191800.0,
+      "assessed_total": 252700.0,
+      "convey_date": "2007-05-30",
+      "convey_price": 451.5,
+      "owner_occupied": false,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 5911.46,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "Tax debt \u2265$5k",
+        "Absentee owner",
+        "Equity \u2265$250k",
+        "Owned 15+ years"
+      ],
+      "score": 59,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5471259000"
+    },
+    {
       "taxkey": "5480733000",
       "owner": "LEYLA M SOLIS",
       "owner2": "",
@@ -127072,6 +127368,84 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1909993110"
     },
     {
+      "taxkey": "2310076000",
+      "owner": "DORI INVESTMENTS LLC",
+      "owner2": "",
+      "prop_address": "4453 N 25TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53209",
+      "mail_address": "333 W BROWN DEER RD UNIT G 4",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53217",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1923,
+      "units": 1,
+      "assessed_land": 6300.0,
+      "assessed_improvement": 52300.0,
+      "assessed_total": 58600.0,
+      "convey_date": "2020-07-16",
+      "convey_price": 117.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-07-04",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "LLC / corp owner",
+        "New this week"
+      ],
+      "score": 59,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2310076000"
+    },
+    {
+      "taxkey": "2540103120",
+      "owner": "TEEN CHALLENGE",
+      "owner2": "INTERNATIONAL OF WIS INC",
+      "prop_address": "9802 W CAPITOL DR",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53222",
+      "mail_address": "PO BOX 250771",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53225",
+      "land_use": "5200",
+      "land_use_label": "Building Mtlrs, Garden Suppls",
+      "year_built": 1946,
+      "units": 3,
+      "assessed_land": 30000.0,
+      "assessed_improvement": 4100.0,
+      "assessed_total": 34100.0,
+      "convey_date": "2010-12-28",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-08-18",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "Owned 15+ years",
+        "New this week"
+      ],
+      "score": 59,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2540103120"
+    },
+    {
       "taxkey": "2600202000",
       "owner": "DAVID A URBANEK TOD",
       "owner2": "",
@@ -127184,45 +127558,6 @@
       ],
       "score": 59,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2780264000"
-    },
-    {
-      "taxkey": "2861003000",
-      "owner": "29TH STREET LLC",
-      "owner2": "",
-      "prop_address": "3310 N 29TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53216",
-      "mail_address": "PO BOX 13701",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53213",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1918,
-      "units": 1,
-      "assessed_land": 11000.0,
-      "assessed_improvement": 79100.0,
-      "assessed_total": 90100.0,
-      "convey_date": "2025-12-19",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2026-08-21",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "LLC / corp owner",
-        "New this week"
-      ],
-      "score": 59,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2861003000"
     },
     {
       "taxkey": "2920509000",
@@ -127339,6 +127674,45 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3121414000"
     },
     {
+      "taxkey": "3132018000",
+      "owner": "YANQUI INVESTMENTS LLC",
+      "owner2": "",
+      "prop_address": "2935 N VEL R PHILLIPS AV",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53212",
+      "mail_address": "6008 W GARFIELD ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53208",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1890,
+      "units": 1,
+      "assessed_land": 0.0,
+      "assessed_improvement": 0.0,
+      "assessed_total": 0.0,
+      "convey_date": "2026-07-17",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2025-03-24",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "LLC / corp owner",
+        "New this week"
+      ],
+      "score": 59,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3132018000"
+    },
+    {
       "taxkey": "3161616000",
       "owner": "GAIL BECKER",
       "owner2": "",
@@ -127413,44 +127787,6 @@
       ],
       "score": 59,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3201509000"
-    },
-    {
-      "taxkey": "3480006000",
-      "owner": "JASMINE ARABIYAT",
-      "owner2": "MONEER ARABIYAT",
-      "prop_address": "3531/3533 W LISBON AV",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53208",
-      "mail_address": "699 KARA LANE",
-      "mail_city": "GRAFTON",
-      "mail_state": "WI",
-      "mail_zip": "53024",
-      "land_use": "8899",
-      "land_use_label": "Mixed-Residential/Commercial",
-      "year_built": 1910,
-      "units": 3,
-      "assessed_land": 4000.0,
-      "assessed_improvement": 234600.0,
-      "assessed_total": 238600.0,
-      "convey_date": "2026-07-17",
-      "convey_price": 450.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2026-07-17",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "New this week"
-      ],
-      "score": 59,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3480006000"
     },
     {
       "taxkey": "3550783110",
@@ -129845,47 +130181,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3881205000"
     },
     {
-      "taxkey": "3921562000",
-      "owner": "PRESERVE REDEVELOPMENT PARTNERS LLC",
-      "owner2": "",
-      "prop_address": "819 N CASS ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53202",
-      "mail_address": "819 N CASS STREET UNIT B",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53202",
-      "land_use": "8899",
-      "land_use_label": "Mixed-Residential/Commercial",
-      "year_built": 1897,
-      "units": 8,
-      "assessed_land": 180000.0,
-      "assessed_improvement": 384000.0,
-      "assessed_total": 564000.0,
-      "convey_date": "2023-07-28",
-      "convey_price": 1683.6,
-      "owner_occupied": true,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 7847.16,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Tax debt \u2265$5k",
-        "High equity (\u2265$500k)",
-        "LLC / corp owner"
-      ],
-      "score": 58,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3921562000"
-    },
-    {
       "taxkey": "3922582000",
       "owner": "YELLOW WOOD ROAD LLC",
       "owner2": "",
@@ -130256,44 +130551,6 @@
       ],
       "score": 58,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5730075000"
-    },
-    {
-      "taxkey": "1029959100",
-      "owner": "AZAN KHAN LLC",
-      "owner2": "",
-      "prop_address": "4037 W CALUMET RD",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53209",
-      "mail_address": "2335 W MANCHESTER AVE",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53221",
-      "land_use": "8820",
-      "land_use_label": "Two Family Residential",
-      "year_built": 1953,
-      "units": 2,
-      "assessed_land": 31500.0,
-      "assessed_improvement": 196200.0,
-      "assessed_total": 227700.0,
-      "convey_date": "2024-10-24",
-      "convey_price": 486.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2022-01-17",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 58,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1029959100"
     },
     {
       "taxkey": "1229948120",
@@ -130674,6 +130931,44 @@
       ],
       "score": 58,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1710438000"
+    },
+    {
+      "taxkey": "1710443000",
+      "owner": "LEGACY MANAGEMENT, LLC",
+      "owner2": "",
+      "prop_address": "5755 N 41ST ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53209",
+      "mail_address": "PO Box 18544",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53218",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1951,
+      "units": 1,
+      "assessed_land": 8800.0,
+      "assessed_improvement": 133800.0,
+      "assessed_total": 142600.0,
+      "convey_date": "2026-07-08",
+      "convey_price": 405.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-04-13",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "LLC / corp owner"
+      ],
+      "score": 58,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1710443000"
     },
     {
       "taxkey": "1719579000",
@@ -132539,6 +132834,44 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2831241000"
     },
     {
+      "taxkey": "2840215000",
+      "owner": "GRANDIOSE DREAMS LLC",
+      "owner2": "",
+      "prop_address": "1801 W KEEFE AV",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53206",
+      "mail_address": "3955 N 78TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53222",
+      "land_use": "8899",
+      "land_use_label": "Mixed-Residential/Commercial",
+      "year_built": 1920,
+      "units": 4,
+      "assessed_land": 2000.0,
+      "assessed_improvement": 145700.0,
+      "assessed_total": 147700.0,
+      "convey_date": "2025-10-13",
+      "convey_price": 0.3,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2019-01-14",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "LLC / corp owner"
+      ],
+      "score": 58,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2840215000"
+    },
+    {
       "taxkey": "2850788000",
       "owner": "SHAAN REAL ESTATE INC",
       "owner2": "",
@@ -132613,44 +132946,6 @@
       ],
       "score": 58,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2851627000"
-    },
-    {
-      "taxkey": "2890338000",
-      "owner": "AGKW HOLDINGS LLC",
-      "owner2": "",
-      "prop_address": "3120 N 56TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53216",
-      "mail_address": "2140 N 2ND ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53212",
-      "land_use": "8820",
-      "land_use_label": "Two Family Residential",
-      "year_built": 1942,
-      "units": 2,
-      "assessed_land": 6800.0,
-      "assessed_improvement": 230200.0,
-      "assessed_total": 237000.0,
-      "convey_date": "2022-04-13",
-      "convey_price": 330.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2026-05-14",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 58,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2890338000"
     },
     {
       "taxkey": "2890585000",
@@ -132892,8 +133187,8 @@
       "mail_city": "OAK CREEK",
       "mail_state": "WI",
       "mail_zip": "53154",
-      "land_use": "8021",
-      "land_use_label": "Offices And Clinics Of Dentists",
+      "land_use": "9999",
+      "land_use_label": "Commercial Mixed Use",
       "year_built": 1948,
       "units": 2,
       "assessed_land": 11900.0,
@@ -132917,44 +133212,6 @@
       ],
       "score": 58,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3060203000"
-    },
-    {
-      "taxkey": "3060755000",
-      "owner": "EMINEM ENTERPRISES LLC",
-      "owner2": "",
-      "prop_address": "2872 N 58TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53210",
-      "mail_address": "5700 W NASH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53216",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1928,
-      "units": 1,
-      "assessed_land": 17000.0,
-      "assessed_improvement": 138600.0,
-      "assessed_total": 155600.0,
-      "convey_date": "2023-01-26",
-      "convey_price": 210.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2023-02-28",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 58,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3060755000"
     },
     {
       "taxkey": "3060761000",
@@ -134058,44 +134315,6 @@
       ],
       "score": 58,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3470458100"
-    },
-    {
-      "taxkey": "3471006000",
-      "owner": "THRIFT MANAGEMENT LLC",
-      "owner2": "",
-      "prop_address": "2219/2221 N 48TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53208",
-      "mail_address": "W8099 CLOVER VALLEY RD",
-      "mail_city": "WHITEWATER",
-      "mail_state": "WI",
-      "mail_zip": "53190",
-      "land_use": "8820",
-      "land_use_label": "Two Family Residential",
-      "year_built": 1915,
-      "units": 2,
-      "assessed_land": 7500.0,
-      "assessed_improvement": 210200.0,
-      "assessed_total": 217700.0,
-      "convey_date": "2025-05-12",
-      "convey_price": 540.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2023-06-08",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 58,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3471006000"
     },
     {
       "taxkey": "3480420000",
@@ -136223,6 +136442,44 @@
       ],
       "score": 58,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5521418000"
+    },
+    {
+      "taxkey": "5819968000",
+      "owner": "SELL WITH SG LLC",
+      "owner2": "",
+      "prop_address": "3947 S PINE AV",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53207",
+      "mail_address": "21675 E MORELAND BLVD",
+      "mail_city": "WAUKESHA",
+      "mail_state": "WI",
+      "mail_zip": "53186",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1950,
+      "units": 1,
+      "assessed_land": 52600.0,
+      "assessed_improvement": 172900.0,
+      "assessed_total": 225500.0,
+      "convey_date": "2026-07-15",
+      "convey_price": 540.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-06-09",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "LLC / corp owner"
+      ],
+      "score": 58,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5819968000"
     },
     {
       "taxkey": "5940477100",
@@ -141756,6 +142013,44 @@
       ],
       "score": 56,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=6900701000"
+    },
+    {
+      "taxkey": "3680331000",
+      "owner": "NYJAH AYALA-MAYER",
+      "owner2": "",
+      "prop_address": "1418 N 57TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53208",
+      "mail_address": "1418 N 57TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53208",
+      "land_use": "8820",
+      "land_use_label": "Two Family Residential",
+      "year_built": 1924,
+      "units": 2,
+      "assessed_land": 28800.0,
+      "assessed_improvement": 247200.0,
+      "assessed_total": 276000.0,
+      "convey_date": "2026-07-06",
+      "convey_price": 995.7,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-08-24",
+      "flags": [
+        "Vacant building",
+        "Equity \u2265$250k",
+        "New this week"
+      ],
+      "score": 56,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3680331000"
     },
     {
       "taxkey": "0340684000",
@@ -152766,7 +153061,7 @@
       "assessed_improvement": 125500.0,
       "assessed_total": 141100.0,
       "convey_date": "2024-11-25",
-      "convey_price": 0.0,
+      "convey_price": 570.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -157306,26 +157601,102 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1029968100"
     },
     {
-      "taxkey": "1910226000",
-      "owner": "DAMEKO BATTS",
+      "taxkey": "1469997000",
+      "owner": "CITY OF MILWAUKEE",
       "owner2": "",
-      "prop_address": "5275 N 50TH ST",
+      "prop_address": "6505 N 107TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53224",
+      "mail_address": "809 N BROADWAY",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53202",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1958,
+      "units": 1,
+      "assessed_land": 0.0,
+      "assessed_improvement": 0.0,
+      "assessed_total": 0.0,
+      "convey_date": "2025-09-26",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2025-09-26",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "New this week"
+      ],
+      "score": 55,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1469997000"
+    },
+    {
+      "taxkey": "1919886000",
+      "owner": "CITY OF MILWAUKEE",
+      "owner2": "",
+      "prop_address": "4727 W CUSTER AV",
       "prop_city": "Milwaukee",
       "prop_state": "WI",
       "prop_zip": "53218",
-      "mail_address": "5275 N 50TH ST",
+      "mail_address": "809 N BROADWAY",
       "mail_city": "MILWAUKEE",
       "mail_state": "WI",
-      "mail_zip": "53218",
+      "mail_zip": "53202",
       "land_use": "8810",
       "land_use_label": "Single-Private Households",
-      "year_built": 1950,
+      "year_built": 1923,
       "units": 1,
-      "assessed_land": 6700.0,
-      "assessed_improvement": 127200.0,
-      "assessed_total": 133900.0,
-      "convey_date": "1992-02-01",
-      "convey_price": 56.4,
+      "assessed_land": 0.0,
+      "assessed_improvement": 0.0,
+      "assessed_total": 0.0,
+      "convey_date": "2025-07-28",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2025-07-28",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "New this week"
+      ],
+      "score": 55,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1919886000"
+    },
+    {
+      "taxkey": "2060304000",
+      "owner": "KATHY M HARRIS",
+      "owner2": "",
+      "prop_address": "5059 N 23RD ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53209",
+      "mail_address": "5059 N 23RD ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53209",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1946,
+      "units": 1,
+      "assessed_land": 7000.0,
+      "assessed_improvement": 114700.0,
+      "assessed_total": 121700.0,
+      "convey_date": "1997-04-17",
+      "convey_price": 108.0,
       "owner_occupied": true,
       "cat": "vacant",
       "cat_label": "Vacant Building",
@@ -157341,7 +157712,83 @@
         "New this week"
       ],
       "score": 55,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1910226000"
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2060304000"
+    },
+    {
+      "taxkey": "2080543000",
+      "owner": "CITY OF MILWAUKEE",
+      "owner2": "",
+      "prop_address": "4826 N 37TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53209",
+      "mail_address": "809 N BROADWAY",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53202",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1952,
+      "units": 1,
+      "assessed_land": 0.0,
+      "assessed_improvement": 0.0,
+      "assessed_total": 0.0,
+      "convey_date": "2025-09-26",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2025-09-26",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "New this week"
+      ],
+      "score": 55,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2080543000"
+    },
+    {
+      "taxkey": "2830198000",
+      "owner": "CITY OF MILWAUKEE",
+      "owner2": "",
+      "prop_address": "1105/1107 W KEEFE AV",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53206",
+      "mail_address": "809 N BROADWAY",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53202",
+      "land_use": "8820",
+      "land_use_label": "Two Family Residential",
+      "year_built": 1910,
+      "units": 2,
+      "assessed_land": 0.0,
+      "assessed_improvement": 0.0,
+      "assessed_total": 0.0,
+      "convey_date": "2024-11-18",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2025-01-03",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "New this week"
+      ],
+      "score": 55,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2830198000"
     },
     {
       "taxkey": "2929983000",
@@ -157496,26 +157943,26 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3050203000"
     },
     {
-      "taxkey": "3210721000",
-      "owner": "MODERN HEIGHTS MANAGEMENT LL",
+      "taxkey": "3111381100",
+      "owner": "CITY OF MILWAUKEE",
       "owner2": "",
-      "prop_address": "905 E CENTER ST",
+      "prop_address": "2909/2911 N 16TH ST",
       "prop_city": "Milwaukee",
       "prop_state": "WI",
-      "prop_zip": "53212",
-      "mail_address": "PO BOX 151",
-      "mail_city": "SUSSEX",
+      "prop_zip": "53206",
+      "mail_address": "809 N BROADWAY",
+      "mail_city": "MILWAUKEE",
       "mail_state": "WI",
-      "mail_zip": "53089",
-      "land_use": "8899",
-      "land_use_label": "Mixed-Residential/Commercial",
-      "year_built": 1885,
-      "units": 3,
-      "assessed_land": 9000.0,
-      "assessed_improvement": 33100.0,
-      "assessed_total": 42100.0,
-      "convey_date": "2026-03-20",
-      "convey_price": 105.0,
+      "mail_zip": "53202",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1900,
+      "units": 1,
+      "assessed_land": 0.0,
+      "assessed_improvement": 0.0,
+      "assessed_total": 0.0,
+      "convey_date": "2025-09-26",
+      "convey_price": 0.0,
       "owner_occupied": false,
       "cat": "vacant",
       "cat_label": "Vacant Building",
@@ -157524,14 +157971,14 @@
       ],
       "delinquent_years": [],
       "delinquent_total": null,
-      "vacant_since": "2026-08-21",
+      "vacant_since": "2025-09-26",
       "flags": [
         "Vacant building",
         "Absentee owner",
         "New this week"
       ],
       "score": 55,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3210721000"
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3111381100"
     },
     {
       "taxkey": "3461010000",
@@ -157570,6 +158017,44 @@
       ],
       "score": 55,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3461010000"
+    },
+    {
+      "taxkey": "3491001000",
+      "owner": "UNITY DEVELOPMENT HOUSING LL",
+      "owner2": "",
+      "prop_address": "2901/2903 W NORTH AV",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53208",
+      "mail_address": "116 W KEEFE AVE",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53212",
+      "land_use": "8899",
+      "land_use_label": "Mixed-Residential/Commercial",
+      "year_built": 1921,
+      "units": 4,
+      "assessed_land": 1600.0,
+      "assessed_improvement": 83600.0,
+      "assessed_total": 85200.0,
+      "convey_date": "2023-06-16",
+      "convey_price": 495.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-02-19",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "New this week"
+      ],
+      "score": 55,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3491001000"
     },
     {
       "taxkey": "3590817000",
@@ -160792,47 +161277,6 @@
       ],
       "score": 54,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2500921000"
-    },
-    {
-      "taxkey": "2501061100",
-      "owner": "POWER LOUNGE & GRILLE LLC",
-      "owner2": "",
-      "prop_address": "4323 N 60TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53216",
-      "mail_address": "124 ALLARD AVE",
-      "mail_city": "GREEN BAY",
-      "mail_state": "WI",
-      "mail_zip": "54303",
-      "land_use": "5812",
-      "land_use_label": "Eating Places",
-      "year_built": 1928,
-      "units": 2,
-      "assessed_land": 38000.0,
-      "assessed_improvement": 209300.0,
-      "assessed_total": 247300.0,
-      "convey_date": "2023-12-18",
-      "convey_price": 750.0,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 9566.38,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Tax debt \u2265$5k",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 54,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2501061100"
     },
     {
       "taxkey": "2630904000",
@@ -168435,44 +168879,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2120286110"
     },
     {
-      "taxkey": "2120673000",
-      "owner": "TAGCEE LLC",
-      "owner2": "",
-      "prop_address": "6962 W MEDFORD AV",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53218",
-      "mail_address": "4770 N 40TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53209",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1938,
-      "units": 1,
-      "assessed_land": 22800.0,
-      "assessed_improvement": 29100.0,
-      "assessed_total": 51900.0,
-      "convey_date": "2023-11-08",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2019-07-29",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 54,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2120673000"
-    },
-    {
       "taxkey": "2260983000",
       "owner": "DAMIAN STRUBLE",
       "owner2": "",
@@ -169040,6 +169446,44 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2300143000"
     },
     {
+      "taxkey": "2300354000",
+      "owner": "AHA 1, LLC",
+      "owner2": "",
+      "prop_address": "4730 N 35TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53209",
+      "mail_address": "270 E KILBOURN AVE  STE 5",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53202",
+      "land_use": "8820",
+      "land_use_label": "Two Family Residential",
+      "year_built": 1910,
+      "units": 1,
+      "assessed_land": 6900.0,
+      "assessed_improvement": 38000.0,
+      "assessed_total": 44900.0,
+      "convey_date": "2026-07-10",
+      "convey_price": 213.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-07-10",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "LLC / corp owner"
+      ],
+      "score": 54,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2300354000"
+    },
+    {
       "taxkey": "2300621000",
       "owner": "RPRFII A LLC",
       "owner2": "",
@@ -169151,44 +169595,6 @@
       ],
       "score": 54,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2310607000"
-    },
-    {
-      "taxkey": "2310707000",
-      "owner": "MNK HOMES LLC",
-      "owner2": "",
-      "prop_address": "4370 N 25TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53209",
-      "mail_address": "4462 N 27TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53209",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1923,
-      "units": 1,
-      "assessed_land": 3100.0,
-      "assessed_improvement": 62300.0,
-      "assessed_total": 65400.0,
-      "convey_date": "2025-03-05",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2021-09-28",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 54,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2310707000"
     },
     {
       "taxkey": "2320471000",
@@ -170206,6 +170612,44 @@
       ],
       "score": 54,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2722204000"
+    },
+    {
+      "taxkey": "2730104000",
+      "owner": "THE SAKOTA TRIPLETT TRUST",
+      "owner2": "",
+      "prop_address": "3732 N VEL R PHILLIPS AV",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53212",
+      "mail_address": "2333 W LANCASTER AVE",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53209",
+      "land_use": "8820",
+      "land_use_label": "Two Family Residential",
+      "year_built": 1925,
+      "units": 2,
+      "assessed_land": 18200.0,
+      "assessed_improvement": 72200.0,
+      "assessed_total": 90400.0,
+      "convey_date": "2026-06-19",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2025-04-08",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "LLC / corp owner"
+      ],
+      "score": 54,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2730104000"
     },
     {
       "taxkey": "2730627000",
@@ -171268,6 +171712,44 @@
       ],
       "score": 54,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2860703000"
+    },
+    {
+      "taxkey": "2861003000",
+      "owner": "29TH STREET LLC",
+      "owner2": "",
+      "prop_address": "3310 N 29TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53216",
+      "mail_address": "PO BOX 13701",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53213",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1918,
+      "units": 1,
+      "assessed_land": 11000.0,
+      "assessed_improvement": 79100.0,
+      "assessed_total": 90100.0,
+      "convey_date": "2025-12-19",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-08-21",
+      "flags": [
+        "Vacant building",
+        "Absentee owner",
+        "LLC / corp owner"
+      ],
+      "score": 54,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2861003000"
     },
     {
       "taxkey": "2861046000",
@@ -174860,6 +175342,43 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3479981000"
     },
     {
+      "taxkey": "3480006000",
+      "owner": "JASMINE ARABIYAT",
+      "owner2": "MONEER ARABIYAT",
+      "prop_address": "3531/3533 W LISBON AV",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53208",
+      "mail_address": "699 KARA LANE",
+      "mail_city": "GRAFTON",
+      "mail_state": "WI",
+      "mail_zip": "53024",
+      "land_use": "8899",
+      "land_use_label": "Mixed-Residential/Commercial",
+      "year_built": 1910,
+      "units": 3,
+      "assessed_land": 4000.0,
+      "assessed_improvement": 234600.0,
+      "assessed_total": 238600.0,
+      "convey_date": "2026-07-17",
+      "convey_price": 450.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-07-17",
+      "flags": [
+        "Vacant building",
+        "Absentee owner"
+      ],
+      "score": 54,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3480006000"
+    },
+    {
       "taxkey": "3480421000",
       "owner": "RPRFII A, LLC",
       "owner2": "",
@@ -177117,44 +177636,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4670322100"
     },
     {
-      "taxkey": "4670494000",
-      "owner": "NEW HALO 10 LLC",
-      "owner2": "",
-      "prop_address": "2052 S 5TH PL",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53204",
-      "mail_address": "4407 S 20TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53221",
-      "land_use": "8820",
-      "land_use_label": "Two Family Residential",
-      "year_built": 1900,
-      "units": 2,
-      "assessed_land": 0.0,
-      "assessed_improvement": 0.0,
-      "assessed_total": 0.0,
-      "convey_date": "2026-03-30",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2019-04-16",
-      "flags": [
-        "Vacant building",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 54,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4670494000"
-    },
-    {
       "taxkey": "4690456000",
       "owner": "EAST TOWN MANAGEMENT LLC",
       "owner2": "",
@@ -177455,6 +177936,43 @@
       ],
       "score": 54,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5040637000"
+    },
+    {
+      "taxkey": "5320408000",
+      "owner": "BRENT RICHARD JANUSZEWSKI",
+      "owner2": "",
+      "prop_address": "3124 S 40TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53215",
+      "mail_address": "4967 S IMPERIAL CIR",
+      "mail_city": "GREENFIELD",
+      "mail_state": "WI",
+      "mail_zip": "53220",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1949,
+      "units": 1,
+      "assessed_land": 36300.0,
+      "assessed_improvement": 157100.0,
+      "assessed_total": 193400.0,
+      "convey_date": "2026-04-09",
+      "convey_price": 630.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2025-09-17",
+      "flags": [
+        "Vacant building",
+        "Absentee owner"
+      ],
+      "score": 54,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5320408000"
     },
     {
       "taxkey": "5340407000",
@@ -178974,47 +179492,6 @@
       ],
       "score": 52,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1430806000"
-    },
-    {
-      "taxkey": "1509930000",
-      "owner": "DMP DWELLINGS LLC",
-      "owner2": "",
-      "prop_address": "6234 N 105TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53225",
-      "mail_address": "9033 N PEARLETTE LN",
-      "mail_city": "BROWN DEER",
-      "mail_state": "WI",
-      "mail_zip": "53223",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1950,
-      "units": 1,
-      "assessed_land": 41400.0,
-      "assessed_improvement": 220700.0,
-      "assessed_total": 262100.0,
-      "convey_date": "2025-06-12",
-      "convey_price": 555.0,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 4681.0,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Absentee owner",
-        "Equity \u2265$250k",
-        "LLC / corp owner"
-      ],
-      "score": 52,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1509930000"
     },
     {
       "taxkey": "1520048000",
@@ -205652,47 +206129,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5410145000"
     },
     {
-      "taxkey": "5471259000",
-      "owner": "JENNIE M MCGRATH",
-      "owner2": "",
-      "prop_address": "3553 S LENOX ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53207",
-      "mail_address": "3553  S LENOX ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53207",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1940,
-      "units": 1,
-      "assessed_land": 60900.0,
-      "assessed_improvement": 191800.0,
-      "assessed_total": 252700.0,
-      "convey_date": "2007-05-30",
-      "convey_price": 451.5,
-      "owner_occupied": true,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 5911.46,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Tax debt \u2265$5k",
-        "Equity \u2265$250k",
-        "Owned 15+ years"
-      ],
-      "score": 51,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5471259000"
-    },
-    {
       "taxkey": "5479859000",
       "owner": "CHUCK & CHASE CONTRACTING LLC",
       "owner2": "",
@@ -206547,6 +206983,118 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2140033110"
     },
     {
+      "taxkey": "2280159000",
+      "owner": "TARSH A SMITH",
+      "owner2": "",
+      "prop_address": "4508 N 48TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53218",
+      "mail_address": "4508 N 48TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53218",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1955,
+      "units": 1,
+      "assessed_land": 7700.0,
+      "assessed_improvement": 138600.0,
+      "assessed_total": 146300.0,
+      "convey_date": "2022-11-30",
+      "convey_price": 513.0,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-01-30",
+      "flags": [
+        "Vacant building",
+        "New this week"
+      ],
+      "score": 51,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2280159000"
+    },
+    {
+      "taxkey": "2280415000",
+      "owner": "THOMAS J KOBACK & CATHIE",
+      "owner2": "",
+      "prop_address": "4571 N 50TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53218",
+      "mail_address": "4571 N 50TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53218",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1927,
+      "units": 1,
+      "assessed_land": 7100.0,
+      "assessed_improvement": 78800.0,
+      "assessed_total": 85900.0,
+      "convey_date": "1990-05-25",
+      "convey_price": 4204.69,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-08-25",
+      "flags": [
+        "Vacant building",
+        "Owned 15+ years",
+        "New this week"
+      ],
+      "score": 51,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2280415000"
+    },
+    {
+      "taxkey": "2520264000",
+      "owner": "DAN SOWIEJA",
+      "owner2": "",
+      "prop_address": "7836 W HOPE AV",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53222",
+      "mail_address": "7836 W HOPE AV",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53222",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1956,
+      "units": 1,
+      "assessed_land": 19400.0,
+      "assessed_improvement": 183300.0,
+      "assessed_total": 202700.0,
+      "convey_date": "2024-06-04",
+      "convey_price": 510.0,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-08-17",
+      "flags": [
+        "Vacant building",
+        "New this week"
+      ],
+      "score": 51,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2520264000"
+    },
+    {
       "taxkey": "2620006000",
       "owner": "TAMEKA WILLIAMS",
       "owner2": "",
@@ -206693,43 +207241,6 @@
       ],
       "score": 51,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3071116000"
-    },
-    {
-      "taxkey": "3290801000",
-      "owner": "LAUREN INSTENES",
-      "owner2": "SARAH INSTENES",
-      "prop_address": "2435 N 59TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53210",
-      "mail_address": "2435 N 59TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53210",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1925,
-      "units": 1,
-      "assessed_land": 28500.0,
-      "assessed_improvement": 275900.0,
-      "assessed_total": 304400.0,
-      "convey_date": "2025-06-04",
-      "convey_price": 790.5,
-      "owner_occupied": true,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2024-12-16",
-      "flags": [
-        "Vacant building",
-        "Equity \u2265$250k"
-      ],
-      "score": 51,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3290801000"
     },
     {
       "taxkey": "3880405000",
@@ -212480,8 +212991,8 @@
       "assessed_land": 7100.0,
       "assessed_improvement": 58200.0,
       "assessed_total": 65300.0,
-      "convey_date": "2021-08-26",
-      "convey_price": 5700.0,
+      "convey_date": "2026-07-28",
+      "convey_price": 342.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -216115,6 +216626,43 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1900606000"
     },
     {
+      "taxkey": "1910226000",
+      "owner": "DAMEKO BATTS",
+      "owner2": "",
+      "prop_address": "5275 N 50TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53218",
+      "mail_address": "5275 N 50TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53218",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1950,
+      "units": 1,
+      "assessed_land": 6700.0,
+      "assessed_improvement": 127200.0,
+      "assessed_total": 133900.0,
+      "convey_date": "1992-02-01",
+      "convey_price": 56.4,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-08-11",
+      "flags": [
+        "Vacant building",
+        "Owned 15+ years"
+      ],
+      "score": 50,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1910226000"
+    },
+    {
       "taxkey": "1910311000",
       "owner": "THI CHU THAO",
       "owner2": "",
@@ -216559,6 +217107,43 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2110821000"
     },
     {
+      "taxkey": "2120673000",
+      "owner": "ROGELIO GONZALEZ VARGAS",
+      "owner2": "",
+      "prop_address": "6962 W MEDFORD AV",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53218",
+      "mail_address": "1559 S 14TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53204",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1938,
+      "units": 1,
+      "assessed_land": 22800.0,
+      "assessed_improvement": 29100.0,
+      "assessed_total": 51900.0,
+      "convey_date": "2026-07-23",
+      "convey_price": 39.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2019-07-29",
+      "flags": [
+        "Vacant building",
+        "Absentee owner"
+      ],
+      "score": 50,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2120673000"
+    },
+    {
       "taxkey": "2130511000",
       "owner": "TIMOTHY S LEILER",
       "owner2": "",
@@ -216594,43 +217179,6 @@
       ],
       "score": 50,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2130511000"
-    },
-    {
-      "taxkey": "2140347000",
-      "owner": "EZE I OSUALA",
-      "owner2": "",
-      "prop_address": "4974/4976 N 91ST ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53225",
-      "mail_address": "4974  N 91ST ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53225",
-      "land_use": "8820",
-      "land_use_label": "Two Family Residential",
-      "year_built": 1955,
-      "units": 2,
-      "assessed_land": 16500.0,
-      "assessed_improvement": 187000.0,
-      "assessed_total": 203500.0,
-      "convey_date": "2001-12-11",
-      "convey_price": 0.0,
-      "owner_occupied": true,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2026-04-17",
-      "flags": [
-        "Vacant building",
-        "Owned 15+ years"
-      ],
-      "score": 50,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2140347000"
     },
     {
       "taxkey": "2241085000",
@@ -216853,80 +217401,6 @@
       ],
       "score": 50,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2291151000"
-    },
-    {
-      "taxkey": "2300206100",
-      "owner": "GERROD QUALLIS",
-      "owner2": "",
-      "prop_address": "4731 N 28TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53209",
-      "mail_address": "6522 N 52ND ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53223",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1934,
-      "units": 1,
-      "assessed_land": 0.0,
-      "assessed_improvement": 0.0,
-      "assessed_total": 0.0,
-      "convey_date": "2026-07-03",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2024-07-12",
-      "flags": [
-        "Vacant building",
-        "Absentee owner"
-      ],
-      "score": 50,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2300206100"
-    },
-    {
-      "taxkey": "2300354000",
-      "owner": "LAMONTE JOHNSON",
-      "owner2": "",
-      "prop_address": "4730 N 35TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53209",
-      "mail_address": "1850 WEST FOND DU LAC AVE, 2",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53205",
-      "land_use": "8820",
-      "land_use_label": "Two Family Residential",
-      "year_built": 1910,
-      "units": 1,
-      "assessed_land": 6900.0,
-      "assessed_improvement": 38000.0,
-      "assessed_total": 44900.0,
-      "convey_date": "2023-10-31",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2026-07-10",
-      "flags": [
-        "Vacant building",
-        "Absentee owner"
-      ],
-      "score": 50,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2300354000"
     },
     {
       "taxkey": "2300671000",
@@ -220001,6 +220475,43 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3051013000"
     },
     {
+      "taxkey": "3060755000",
+      "owner": "MAYFIELD PROPERTIES 1 LLC",
+      "owner2": "",
+      "prop_address": "2872 N 58TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53210",
+      "mail_address": "2872 N 58TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53210",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1928,
+      "units": 1,
+      "assessed_land": 17000.0,
+      "assessed_improvement": 138600.0,
+      "assessed_total": 155600.0,
+      "convey_date": "2026-07-14",
+      "convey_price": 330.0,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2023-02-28",
+      "flags": [
+        "Vacant building",
+        "LLC / corp owner"
+      ],
+      "score": 50,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3060755000"
+    },
+    {
       "taxkey": "3060763000",
       "owner": "LAWRENCE R STRAUSS",
       "owner2": "",
@@ -221518,6 +222029,43 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3140961000"
     },
     {
+      "taxkey": "3210721000",
+      "owner": "MODERN HEIGHTS MANAGEMENT LL",
+      "owner2": "",
+      "prop_address": "905 E CENTER ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53212",
+      "mail_address": "PO BOX 151",
+      "mail_city": "SUSSEX",
+      "mail_state": "WI",
+      "mail_zip": "53089",
+      "land_use": "8899",
+      "land_use_label": "Mixed-Residential/Commercial",
+      "year_built": 1885,
+      "units": 3,
+      "assessed_land": 9000.0,
+      "assessed_improvement": 33100.0,
+      "assessed_total": 42100.0,
+      "convey_date": "2026-03-20",
+      "convey_price": 105.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-08-21",
+      "flags": [
+        "Vacant building",
+        "Absentee owner"
+      ],
+      "score": 50,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3210721000"
+    },
+    {
       "taxkey": "3220971100",
       "owner": "LARISSA SHARKEY",
       "owner2": "",
@@ -222370,7 +222918,7 @@
     },
     {
       "taxkey": "3280415000",
-      "owner": "TERRANCE E AKENJI",
+      "owner": "TERENCE E. AKENJI",
       "owner2": "",
       "prop_address": "2635/2637 N 47TH ST",
       "prop_city": "Milwaukee",
@@ -223403,43 +223951,6 @@
       ],
       "score": 50,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3641532000"
-    },
-    {
-      "taxkey": "3641791100",
-      "owner": "CITY OF MILWAUKEE",
-      "owner2": "",
-      "prop_address": "1434 N 26TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53205",
-      "mail_address": "809 N BROADWAY",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53202",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1885,
-      "units": 1,
-      "assessed_land": 0.0,
-      "assessed_improvement": 0.0,
-      "assessed_total": 0.0,
-      "convey_date": "2024-06-14",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2025-01-22",
-      "flags": [
-        "Vacant building",
-        "Absentee owner"
-      ],
-      "score": 50,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3641791100"
     },
     {
       "taxkey": "3641901000",
@@ -224478,6 +224989,43 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4670321000"
     },
     {
+      "taxkey": "4670494000",
+      "owner": "JUAN LUIS ROMAN SOSA",
+      "owner2": "",
+      "prop_address": "2052 S 5TH PL",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53204",
+      "mail_address": "5114 S 27TH ST  UNIT 210045",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53221",
+      "land_use": "8820",
+      "land_use_label": "Two Family Residential",
+      "year_built": 1900,
+      "units": 2,
+      "assessed_land": 0.0,
+      "assessed_improvement": 0.0,
+      "assessed_total": 0.0,
+      "convey_date": "2026-07-17",
+      "convey_price": 240.0,
+      "owner_occupied": false,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2019-04-16",
+      "flags": [
+        "Vacant building",
+        "Absentee owner"
+      ],
+      "score": 50,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4670494000"
+    },
+    {
       "taxkey": "4679965000",
       "owner": "HUGO TORRES",
       "owner2": "",
@@ -224883,43 +225431,6 @@
       ],
       "score": 50,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5301213000"
-    },
-    {
-      "taxkey": "5320408000",
-      "owner": "BARBARA L JAKOPAC",
-      "owner2": "",
-      "prop_address": "3124 S 40TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53215",
-      "mail_address": "3124 S 40TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53215",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1949,
-      "units": 1,
-      "assessed_land": 36300.0,
-      "assessed_improvement": 157100.0,
-      "assessed_total": 193400.0,
-      "convey_date": "1991-07-24",
-      "convey_price": 55000.0,
-      "owner_occupied": true,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2025-09-17",
-      "flags": [
-        "Vacant building",
-        "Owned 15+ years"
-      ],
-      "score": 50,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5320408000"
     },
     {
       "taxkey": "5340253000",
@@ -232910,6 +233421,46 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3150322000"
     },
     {
+      "taxkey": "3170106000",
+      "owner": "JAMES O CHRISTENSON &",
+      "owner2": "",
+      "prop_address": "2913 N HACKETT AV",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53211",
+      "mail_address": "2913 N HACKETT AVENUE",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53211",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1905,
+      "units": 1,
+      "assessed_land": 233200.0,
+      "assessed_improvement": 197100.0,
+      "assessed_total": 430300.0,
+      "convey_date": "2025-11-23",
+      "convey_price": 975.0,
+      "owner_occupied": false,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 4837.39,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "Absentee owner",
+        "Equity \u2265$250k"
+      ],
+      "score": 48,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3170106000"
+    },
+    {
       "taxkey": "3190414000",
       "owner": "ANdrew Nevinski",
       "owner2": "",
@@ -235641,6 +236192,46 @@
       ],
       "score": 48,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4310142000"
+    },
+    {
+      "taxkey": "4310195000",
+      "owner": "EMILY M HILL",
+      "owner2": "",
+      "prop_address": "1123 S 4TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53204",
+      "mail_address": "1123 S 4TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53204",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1870,
+      "units": 1,
+      "assessed_land": 11900.0,
+      "assessed_improvement": 240400.0,
+      "assessed_total": 252300.0,
+      "convey_date": "2015-12-11",
+      "convey_price": 374.7,
+      "owner_occupied": false,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 2724.61,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "Absentee owner",
+        "Equity \u2265$250k"
+      ],
+      "score": 48,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4310195000"
     },
     {
       "taxkey": "4320267000",
@@ -241686,8 +242277,8 @@
       "assessed_land": 18300.0,
       "assessed_improvement": 160800.0,
       "assessed_total": 179100.0,
-      "convey_date": "2025-12-04",
-      "convey_price": 405.0,
+      "convey_date": "2026-07-15",
+      "convey_price": 0.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -255117,9 +255708,9 @@
       "land_use_label": "Mixed-Residential/Commercial",
       "year_built": 1914,
       "units": 2,
-      "assessed_land": 110400.0,
+      "assessed_land": 220700.0,
       "assessed_improvement": 190500.0,
-      "assessed_total": 300900.0,
+      "assessed_total": 411200.0,
       "convey_date": "1998-10-23",
       "convey_price": 1380.0,
       "owner_occupied": false,
@@ -265804,8 +266395,8 @@
       "assessed_land": 10300.0,
       "assessed_improvement": 20000.0,
       "assessed_total": 30300.0,
-      "convey_date": "2021-11-23",
-      "convey_price": 63.0,
+      "convey_date": "2026-07-16",
+      "convey_price": 0.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -269970,42 +270561,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1920711100"
     },
     {
-      "taxkey": "1920772000",
-      "owner": "TAMOSSA LEONARD",
-      "owner2": "",
-      "prop_address": "5219 N 38TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53209",
-      "mail_address": "5219 N 38TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53209",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1924,
-      "units": 1,
-      "assessed_land": 5700.0,
-      "assessed_improvement": 135000.0,
-      "assessed_total": 140700.0,
-      "convey_date": "2025-06-30",
-      "convey_price": 0.0,
-      "owner_occupied": true,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2021-02-11",
-      "flags": [
-        "Vacant building"
-      ],
-      "score": 46,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1920772000"
-    },
-    {
       "taxkey": "2060172000",
       "owner": "AHA 1 LLC",
       "owner2": "",
@@ -270546,6 +271101,42 @@
       ],
       "score": 46,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2120824000"
+    },
+    {
+      "taxkey": "2140347000",
+      "owner": "VYSHAUN BRISTER",
+      "owner2": "",
+      "prop_address": "4974/4976 N 91ST ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53225",
+      "mail_address": "4974 N 91ST ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53225",
+      "land_use": "8820",
+      "land_use_label": "Two Family Residential",
+      "year_built": 1955,
+      "units": 2,
+      "assessed_land": 16500.0,
+      "assessed_improvement": 187000.0,
+      "assessed_total": 203500.0,
+      "convey_date": "2026-07-09",
+      "convey_price": 884.7,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2026-04-17",
+      "flags": [
+        "Vacant building"
+      ],
+      "score": 46,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2140347000"
     },
     {
       "taxkey": "2170021000",
@@ -272402,42 +272993,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3030325000"
     },
     {
-      "taxkey": "3070391000",
-      "owner": "ROHAN WILLIMASON",
-      "owner2": "",
-      "prop_address": "2919/2921 N 50TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53210",
-      "mail_address": "2919 N 50TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53210",
-      "land_use": "8830",
-      "land_use_label": "Multi-Family,Residential",
-      "year_built": 1924,
-      "units": 3,
-      "assessed_land": 7200.0,
-      "assessed_improvement": 187400.0,
-      "assessed_total": 194600.0,
-      "convey_date": "2026-02-26",
-      "convey_price": 693.6,
-      "owner_occupied": true,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2026-06-26",
-      "flags": [
-        "Vacant building"
-      ],
-      "score": 46,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3070391000"
-    },
-    {
       "taxkey": "3070652000",
       "owner": "SHAWN JASO",
       "owner2": "",
@@ -272981,42 +273536,6 @@
       ],
       "score": 46,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3291630000"
-    },
-    {
-      "taxkey": "3471093000",
-      "owner": "MATTHEW HOUSER",
-      "owner2": "ERICA RODENBECK",
-      "prop_address": "2180 N 51ST ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53208",
-      "mail_address": "2180 N 51ST ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53208",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1917,
-      "units": 1,
-      "assessed_land": 27500.0,
-      "assessed_improvement": 199100.0,
-      "assessed_total": 226600.0,
-      "convey_date": "2026-04-17",
-      "convey_price": 840.0,
-      "owner_occupied": true,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2025-12-05",
-      "flags": [
-        "Vacant building"
-      ],
-      "score": 46,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3471093000"
     },
     {
       "taxkey": "3481047000",
@@ -273848,42 +274367,6 @@
       ],
       "score": 46,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5770103000"
-    },
-    {
-      "taxkey": "5819968000",
-      "owner": "ZACKARY A HOVATTER",
-      "owner2": "MORGAN SCHNETLAGE",
-      "prop_address": "3947 S PINE AV",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53207",
-      "mail_address": "3947 S PINE AVE",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53207",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1950,
-      "units": 1,
-      "assessed_land": 52600.0,
-      "assessed_improvement": 172900.0,
-      "assessed_total": 225500.0,
-      "convey_date": "2021-08-20",
-      "convey_price": 569.7,
-      "owner_occupied": true,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2026-06-09",
-      "flags": [
-        "Vacant building"
-      ],
-      "score": 46,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5819968000"
     },
     {
       "taxkey": "5950005000",
@@ -274923,6 +275406,46 @@
       ],
       "score": 44,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1499963000"
+    },
+    {
+      "taxkey": "1509930000",
+      "owner": "DMP DWELLINGS LLC",
+      "owner2": "ALLYSSA THOMAS-SMITH",
+      "prop_address": "6234 N 105TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53225",
+      "mail_address": "9033 N PEARLETTE LN",
+      "mail_city": "BROWN DEER",
+      "mail_state": "WI",
+      "mail_zip": "53223",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1950,
+      "units": 1,
+      "assessed_land": 41400.0,
+      "assessed_improvement": 220700.0,
+      "assessed_total": 262100.0,
+      "convey_date": "2026-07-16",
+      "convey_price": 885.0,
+      "owner_occupied": true,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 4681.0,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "Equity \u2265$250k",
+        "LLC / corp owner"
+      ],
+      "score": 44,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=1509930000"
     },
     {
       "taxkey": "1510076000",
@@ -284797,7 +285320,7 @@
     {
       "taxkey": "1090175000",
       "owner": "OAK HILL HOMEOWNERS ASSN INC",
-      "owner2": "C/O TRINETTE GRIFFIN",
+      "owner2": "",
       "prop_address": "7358 N BISHOP CR",
       "prop_city": "Milwaukee",
       "prop_state": "WI",
@@ -284813,8 +285336,8 @@
       "assessed_land": 400.0,
       "assessed_improvement": 0.0,
       "assessed_total": 400.0,
-      "convey_date": "",
-      "convey_price": 0.0,
+      "convey_date": "2026-07-20",
+      "convey_price": 1443.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -284839,7 +285362,7 @@
     {
       "taxkey": "1090176000",
       "owner": "OAK HILL HOMEOWNERS ASSN INC",
-      "owner2": "C/O TRINETTE GRIFFIN",
+      "owner2": "",
       "prop_address": "7308 N 95TH ST",
       "prop_city": "Milwaukee",
       "prop_state": "WI",
@@ -284855,8 +285378,8 @@
       "assessed_land": 100.0,
       "assessed_improvement": 0.0,
       "assessed_total": 100.0,
-      "convey_date": "",
-      "convey_price": 0.0,
+      "convey_date": "2026-07-20",
+      "convey_price": 1443.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -286277,8 +286800,8 @@
       "assessed_land": 15400.0,
       "assessed_improvement": 111700.0,
       "assessed_total": 127100.0,
-      "convey_date": "2025-11-14",
-      "convey_price": 322.5,
+      "convey_date": "2026-07-21",
+      "convey_price": 0.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -294912,8 +295435,8 @@
       "assessed_land": 8000.0,
       "assessed_improvement": 83300.0,
       "assessed_total": 91300.0,
-      "convey_date": "2021-12-28",
-      "convey_price": 49.8,
+      "convey_date": "2026-07-28",
+      "convey_price": 513.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -303231,46 +303754,6 @@
       ],
       "score": 43,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4200387000"
-    },
-    {
-      "taxkey": "4200646000",
-      "owner": "NEWAY LLC",
-      "owner2": "",
-      "prop_address": "170 S 64TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53214",
-      "mail_address": "137 WISCONSIN AVE STE 305",
-      "mail_city": "WAUKESHA",
-      "mail_state": "WI",
-      "mail_zip": "53214",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1928,
-      "units": 1,
-      "assessed_land": 30800.0,
-      "assessed_improvement": 73900.0,
-      "assessed_total": 104700.0,
-      "convey_date": "2025-08-20",
-      "convey_price": 360.0,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 2544.63,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 43,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4200646000"
     },
     {
       "taxkey": "4200825000",
@@ -321805,7 +322288,7 @@
     },
     {
       "taxkey": "2111034000",
-      "owner": "MOST IMPROVED REAL ESTATE LL",
+      "owner": "BRITTANY BELL",
       "owner2": "",
       "prop_address": "4946 N 64TH ST",
       "prop_city": "Milwaukee",
@@ -321822,8 +322305,8 @@
       "assessed_land": 0.0,
       "assessed_improvement": 0.0,
       "assessed_total": 0.0,
-      "convey_date": "2026-01-05",
-      "convey_price": 0.0,
+      "convey_date": "2026-07-10",
+      "convey_price": 750.0,
       "owner_occupied": true,
       "cat": "vacant",
       "cat_label": "Vacant Building",
@@ -322020,6 +322503,78 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2291007000"
     },
     {
+      "taxkey": "2300206100",
+      "owner": "GERROD QUALLS",
+      "owner2": "",
+      "prop_address": "4731 N 28TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53209",
+      "mail_address": "4731 N 28TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53209",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1934,
+      "units": 1,
+      "assessed_land": 0.0,
+      "assessed_improvement": 0.0,
+      "assessed_total": 0.0,
+      "convey_date": "2026-07-03",
+      "convey_price": 0.0,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2024-07-12",
+      "flags": [
+        "Vacant building"
+      ],
+      "score": 42,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2300206100"
+    },
+    {
+      "taxkey": "2310707000",
+      "owner": "SCHMARA CROMER",
+      "owner2": "",
+      "prop_address": "4370 N 25TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53209",
+      "mail_address": "4370 N 25TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53209",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1923,
+      "units": 1,
+      "assessed_land": 3100.0,
+      "assessed_improvement": 62300.0,
+      "assessed_total": 65400.0,
+      "convey_date": "2026-07-14",
+      "convey_price": 405.0,
+      "owner_occupied": true,
+      "cat": "vacant",
+      "cat_label": "Vacant Building",
+      "signals": [
+        "vacant"
+      ],
+      "delinquent_years": [],
+      "delinquent_total": null,
+      "vacant_since": "2021-09-28",
+      "flags": [
+        "Vacant building"
+      ],
+      "score": 42,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2310707000"
+    },
+    {
       "taxkey": "2630581000",
       "owner": "CARSON KLUG",
       "owner2": "",
@@ -322162,42 +322717,6 @@
       ],
       "score": 42,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2720529000"
-    },
-    {
-      "taxkey": "2730104000",
-      "owner": "SAKOTA TRIPLETT",
-      "owner2": "",
-      "prop_address": "3732 N VEL R PHILLIPS AV",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53212",
-      "mail_address": "3732 N VEL R PHILLIPS",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53212",
-      "land_use": "8820",
-      "land_use_label": "Two Family Residential",
-      "year_built": 1925,
-      "units": 2,
-      "assessed_land": 18200.0,
-      "assessed_improvement": 72200.0,
-      "assessed_total": 90400.0,
-      "convey_date": "2025-06-09",
-      "convey_price": 357.0,
-      "owner_occupied": true,
-      "cat": "vacant",
-      "cat_label": "Vacant Building",
-      "signals": [
-        "vacant"
-      ],
-      "delinquent_years": [],
-      "delinquent_total": null,
-      "vacant_since": "2025-04-08",
-      "flags": [
-        "Vacant building"
-      ],
-      "score": 42,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2730104000"
     },
     {
       "taxkey": "2840411000",
@@ -329637,45 +330156,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3160739000"
     },
     {
-      "taxkey": "3170106000",
-      "owner": "JAMES O CHRISTENSON &",
-      "owner2": "",
-      "prop_address": "2913 N HACKETT AV",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53211",
-      "mail_address": "2913 N HACKETT AVENUE",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53211",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1905,
-      "units": 1,
-      "assessed_land": 233200.0,
-      "assessed_improvement": 197100.0,
-      "assessed_total": 430300.0,
-      "convey_date": "2025-11-23",
-      "convey_price": 975.0,
-      "owner_occupied": true,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 4837.39,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Equity \u2265$250k"
-      ],
-      "score": 40,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3170106000"
-    },
-    {
       "taxkey": "3170168000",
       "owner": "CONSUELO MERE PEREZ",
       "owner2": "TAMMIE RAE KLEIN",
@@ -331885,45 +332365,6 @@
       ],
       "score": 40,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4161541110"
-    },
-    {
-      "taxkey": "4310195000",
-      "owner": "EMILY M HILL",
-      "owner2": "",
-      "prop_address": "1123 S 4TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53204",
-      "mail_address": "1123 S 4TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53204",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1870,
-      "units": 1,
-      "assessed_land": 11900.0,
-      "assessed_improvement": 240400.0,
-      "assessed_total": 252300.0,
-      "convey_date": "2015-12-11",
-      "convey_price": 374.7,
-      "owner_occupied": true,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 2724.61,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Equity \u2265$250k"
-      ],
-      "score": 40,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4310195000"
     },
     {
       "taxkey": "4320067210",
@@ -342712,45 +343153,6 @@
       ],
       "score": 39,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2490059000"
-    },
-    {
-      "taxkey": "2490132100",
-      "owner": "HERBERT LUCAS",
-      "owner2": "",
-      "prop_address": "4083 N 51ST BL",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53216",
-      "mail_address": "4083 N 51ST BOULEVARD",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53216",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1926,
-      "units": 1,
-      "assessed_land": 5900.0,
-      "assessed_improvement": 105600.0,
-      "assessed_total": 111500.0,
-      "convey_date": "2026-04-16",
-      "convey_price": 217.5,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 3121.45,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Absentee owner"
-      ],
-      "score": 39,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2490132100"
     },
     {
       "taxkey": "2510477000",
@@ -363603,8 +364005,8 @@
       "assessed_land": 7300.0,
       "assessed_improvement": 85200.0,
       "assessed_total": 92500.0,
-      "convey_date": "2025-04-03",
-      "convey_price": 324.0,
+      "convey_date": "2026-07-28",
+      "convey_price": 0.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -366721,46 +367123,6 @@
       ],
       "score": 38,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2700211000"
-    },
-    {
-      "taxkey": "2700216000",
-      "owner": "ALCENIA SCOTT",
-      "owner2": "",
-      "prop_address": "3712 N 27TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53216",
-      "mail_address": "2842 3RD AVE",
-      "mail_city": "OXFORD",
-      "mail_state": "WI",
-      "mail_zip": "53952",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1924,
-      "units": 1,
-      "assessed_land": 13300.0,
-      "assessed_improvement": 57300.0,
-      "assessed_total": 70600.0,
-      "convey_date": "1991-02-28",
-      "convey_price": 22011.44,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 1008.54,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Absentee owner",
-        "Owned 15+ years"
-      ],
-      "score": 38,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2700216000"
     },
     {
       "taxkey": "2700232000",
@@ -371945,46 +372307,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3100101100"
     },
     {
-      "taxkey": "3100172100",
-      "owner": "THE BEST LLC",
-      "owner2": "",
-      "prop_address": "3006 N DR LESTER CARTER DR",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53206",
-      "mail_address": "1433 N WATER ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53202",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1903,
-      "units": 1,
-      "assessed_land": 12900.0,
-      "assessed_improvement": 43000.0,
-      "assessed_total": 55900.0,
-      "convey_date": "2022-12-06",
-      "convey_price": 78.3,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 1105.25,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 38,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3100172100"
-    },
-    {
       "taxkey": "3100224000",
       "owner": "2021 TRANSPORATION LLC",
       "owner2": "",
@@ -373783,46 +374105,6 @@
       ],
       "score": 38,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3140516000"
-    },
-    {
-      "taxkey": "3141146000",
-      "owner": "BN TOWING LLC",
-      "owner2": "",
-      "prop_address": "3060 N BUFFUM ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53212",
-      "mail_address": "3060 N BUFFUM ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53212",
-      "land_use": "8820",
-      "land_use_label": "Two Family Residential",
-      "year_built": 1908,
-      "units": 2,
-      "assessed_land": 11300.0,
-      "assessed_improvement": 41100.0,
-      "assessed_total": 52400.0,
-      "convey_date": "2025-07-03",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 894.99,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 38,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3141146000"
     },
     {
       "taxkey": "3191038100",
@@ -383972,6 +384254,45 @@
       ],
       "score": 38,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5319974100"
+    },
+    {
+      "taxkey": "5361523000",
+      "owner": "LORRAINE M MAAS TOD",
+      "owner2": "KAREN A MAAS",
+      "prop_address": "3151 S 10TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53215",
+      "mail_address": "3151 S 10TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53215",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1925,
+      "units": 1,
+      "assessed_land": 35100.0,
+      "assessed_improvement": 191300.0,
+      "assessed_total": 226400.0,
+      "convey_date": "2026-06-24",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 809.58,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "Absentee owner"
+      ],
+      "score": 38,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5361523000"
     },
     {
       "taxkey": "5490085000",
@@ -400863,6 +401184,45 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4200132000"
     },
     {
+      "taxkey": "4200646000",
+      "owner": "NEWAY LLC",
+      "owner2": "",
+      "prop_address": "170 S 64TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53214",
+      "mail_address": "137 WISCONSIN AVE STE 305",
+      "mail_city": "WAUKESHA",
+      "mail_state": "WI",
+      "mail_zip": "53214",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1928,
+      "units": 1,
+      "assessed_land": 30800.0,
+      "assessed_improvement": 73900.0,
+      "assessed_total": 104700.0,
+      "convey_date": "2026-06-25",
+      "convey_price": 405.0,
+      "owner_occupied": true,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 2544.63,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "LLC / corp owner"
+      ],
+      "score": 35,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4200646000"
+    },
+    {
       "taxkey": "4200742000",
       "owner": "MELISSA BRANDENBERG",
       "owner2": "",
@@ -407542,46 +407902,6 @@
       ],
       "score": 34,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=0340564000"
-    },
-    {
-      "taxkey": "0340601000",
-      "owner": "LINDA LOU VIETH",
-      "owner2": "",
-      "prop_address": "8911 N 95TH ST Unit a",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53224",
-      "mail_address": "1112 LAWNDALE AVE",
-      "mail_city": "WAUKESHA",
-      "mail_state": "WI",
-      "mail_zip": "53188",
-      "land_use": "8811",
-      "land_use_label": "Condo",
-      "year_built": 1970,
-      "units": 1,
-      "assessed_land": 9700.0,
-      "assessed_improvement": 48200.0,
-      "assessed_total": 57900.0,
-      "convey_date": "1988-03-01",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 239.04,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Absentee owner",
-        "Owned 15+ years"
-      ],
-      "score": 34,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=0340601000"
     },
     {
       "taxkey": "0340631000",
@@ -418409,6 +418729,45 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2700124000"
     },
     {
+      "taxkey": "2700216000",
+      "owner": "ALCENIA SCOTT",
+      "owner2": "",
+      "prop_address": "3712 N 27TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53216",
+      "mail_address": "2842 3RD AVE",
+      "mail_city": "OXFORD",
+      "mail_state": "WI",
+      "mail_zip": "53952",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1924,
+      "units": 1,
+      "assessed_land": 13300.0,
+      "assessed_improvement": 57300.0,
+      "assessed_total": 70600.0,
+      "convey_date": "2026-07-07",
+      "convey_price": 0.0,
+      "owner_occupied": false,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 1008.54,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "Absentee owner"
+      ],
+      "score": 34,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2700216000"
+    },
+    {
       "taxkey": "2700256000",
       "owner": "WINSTON BROOKS",
       "owner2": "",
@@ -427316,8 +427675,8 @@
       "assessed_land": 2000.0,
       "assessed_improvement": 34600.0,
       "assessed_total": 36600.0,
-      "convey_date": "2016-05-14",
-      "convey_price": 45.0,
+      "convey_date": "2026-07-24",
+      "convey_price": 157.5,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -432651,46 +433010,6 @@
       ],
       "score": 34,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3491517100"
-    },
-    {
-      "taxkey": "3491594000",
-      "owner": "RICO LOVE FOUNDATION LLC",
-      "owner2": "",
-      "prop_address": "1901 1903 N 32ND ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53208",
-      "mail_address": "4759 N 42ND ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53209",
-      "land_use": "8820",
-      "land_use_label": "Two Family Residential",
-      "year_built": 1917,
-      "units": 2,
-      "assessed_land": 10100.0,
-      "assessed_improvement": 98800.0,
-      "assessed_total": 108900.0,
-      "convey_date": "2023-09-21",
-      "convey_price": 0.0,
-      "owner_occupied": false,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 17.1,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Absentee owner",
-        "LLC / corp owner"
-      ],
-      "score": 34,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3491594000"
     },
     {
       "taxkey": "3492551100",
@@ -449319,8 +449638,8 @@
       "mail_zip": "53202",
       "land_use": "8661",
       "land_use_label": "Religious Organizations",
-      "year_built": null,
-      "units": null,
+      "year_built": 1920,
+      "units": 1,
       "assessed_land": 0.0,
       "assessed_improvement": 0.0,
       "assessed_total": 0.0,
@@ -451307,6 +451626,45 @@
       ],
       "score": 30,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=0340572000"
+    },
+    {
+      "taxkey": "0340601000",
+      "owner": "LINDA LOU VIETH",
+      "owner2": "",
+      "prop_address": "8911 N 95TH ST Unit a",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53224",
+      "mail_address": "1112 LAWNDALE AVE",
+      "mail_city": "WAUKESHA",
+      "mail_state": "WI",
+      "mail_zip": "53188",
+      "land_use": "8811",
+      "land_use_label": "Condo",
+      "year_built": 1970,
+      "units": 1,
+      "assessed_land": 9700.0,
+      "assessed_improvement": 48200.0,
+      "assessed_total": 57900.0,
+      "convey_date": "2026-07-23",
+      "convey_price": 225.0,
+      "owner_occupied": false,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 239.04,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "Absentee owner"
+      ],
+      "score": 30,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=0340601000"
     },
     {
       "taxkey": "0340694000",
@@ -458382,8 +458740,8 @@
       "assessed_land": 0.0,
       "assessed_improvement": 0.0,
       "assessed_total": 0.0,
-      "convey_date": "2012-05-08",
-      "convey_price": 217.8,
+      "convey_date": "2026-06-12",
+      "convey_price": 90.0,
       "owner_occupied": false,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -462692,45 +463050,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2720213000"
     },
     {
-      "taxkey": "2720509000",
-      "owner": "ROGERS, JOE W & EVA L",
-      "owner2": "EVA L. ROGERS",
-      "prop_address": "3729 N 10TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53206",
-      "mail_address": "3729 N 10TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53206",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1923,
-      "units": 1,
-      "assessed_land": 10800.0,
-      "assessed_improvement": 81400.0,
-      "assessed_total": 92200.0,
-      "convey_date": "1900-01-01",
-      "convey_price": 0.0,
-      "owner_occupied": true,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2024"
-      ],
-      "delinquent_total": 1702.93,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Owned 15+ years"
-      ],
-      "score": 30,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2720509000"
-    },
-    {
       "taxkey": "2720713000",
       "owner": "GEORGE T NASH JR",
       "owner2": "",
@@ -466406,7 +466725,7 @@
       "assessed_land": 7100.0,
       "assessed_improvement": 187100.0,
       "assessed_total": 194200.0,
-      "convey_date": "2023-10-13",
+      "convey_date": "2026-07-27",
       "convey_price": 0.0,
       "owner_occupied": true,
       "cat": "tax_delinquent",
@@ -467731,6 +468050,45 @@
       ],
       "score": 30,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3090694000"
+    },
+    {
+      "taxkey": "3100172100",
+      "owner": "THE BEST LLC",
+      "owner2": "",
+      "prop_address": "3006 N DR LESTER CARTER DR",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53206",
+      "mail_address": "1433 N WATER ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53202",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1903,
+      "units": 1,
+      "assessed_land": 12900.0,
+      "assessed_improvement": 43000.0,
+      "assessed_total": 55900.0,
+      "convey_date": "2022-12-06",
+      "convey_price": 78.3,
+      "owner_occupied": true,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 1105.25,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "LLC / corp owner"
+      ],
+      "score": 30,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3100172100"
     },
     {
       "taxkey": "3101008000",
@@ -478920,45 +479278,6 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4620220000"
     },
     {
-      "taxkey": "4620916000",
-      "owner": "LON HICKS",
-      "owner2": "",
-      "prop_address": "515 W MAPLE ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53204",
-      "mail_address": "515 W MAPLE ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53204",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1905,
-      "units": 1,
-      "assessed_land": 6500.0,
-      "assessed_improvement": 53000.0,
-      "assessed_total": 59500.0,
-      "convey_date": "1976-09-01",
-      "convey_price": 10.9,
-      "owner_occupied": true,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 1037.76,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent",
-        "Owned 15+ years"
-      ],
-      "score": 30,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=4620916000"
-    },
-    {
       "taxkey": "4621217000",
       "owner": "DONALD J AVILES",
       "owner2": "",
@@ -482516,44 +482835,6 @@
       ],
       "score": 30,
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5361286000"
-    },
-    {
-      "taxkey": "5361523000",
-      "owner": "LORRAINE M MAAS TOD",
-      "owner2": "",
-      "prop_address": "3151 S 10TH ST",
-      "prop_city": "Milwaukee",
-      "prop_state": "WI",
-      "prop_zip": "53215",
-      "mail_address": "3151 S 10TH ST",
-      "mail_city": "MILWAUKEE",
-      "mail_state": "WI",
-      "mail_zip": "53215",
-      "land_use": "8810",
-      "land_use_label": "Single-Private Households",
-      "year_built": 1925,
-      "units": 1,
-      "assessed_land": 35100.0,
-      "assessed_improvement": 191300.0,
-      "assessed_total": 226400.0,
-      "convey_date": "2020-04-16",
-      "convey_price": 0.0,
-      "owner_occupied": true,
-      "cat": "tax_delinquent",
-      "cat_label": "Tax Delinquent",
-      "signals": [
-        "tax_delinquent"
-      ],
-      "delinquent_years": [
-        "2025"
-      ],
-      "delinquent_total": 809.58,
-      "vacant_since": "",
-      "flags": [
-        "Tax delinquent"
-      ],
-      "score": 30,
-      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=5361523000"
     },
     {
       "taxkey": "5381638000",
@@ -492126,6 +492407,44 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2720222000"
     },
     {
+      "taxkey": "2720509000",
+      "owner": "ROGERS, JOE W & EVA L",
+      "owner2": "",
+      "prop_address": "3729 N 10TH ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53206",
+      "mail_address": "3729 N 10TH ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53206",
+      "land_use": "8810",
+      "land_use_label": "Single-Private Households",
+      "year_built": 1923,
+      "units": 1,
+      "assessed_land": 10800.0,
+      "assessed_improvement": 81400.0,
+      "assessed_total": 92200.0,
+      "convey_date": "2026-07-22",
+      "convey_price": 0.0,
+      "owner_occupied": true,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2024"
+      ],
+      "delinquent_total": 1702.93,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent"
+      ],
+      "score": 26,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=2720509000"
+    },
+    {
       "taxkey": "2720520000",
       "owner": "RUBY D SMITH-MCGEE",
       "owner2": "",
@@ -499583,6 +499902,45 @@
       "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3491545100"
     },
     {
+      "taxkey": "3491594000",
+      "owner": "RICO LOVE FOUNDATION LLC",
+      "owner2": "",
+      "prop_address": "1901 1903 N 32ND ST",
+      "prop_city": "Milwaukee",
+      "prop_state": "WI",
+      "prop_zip": "53208",
+      "mail_address": "4759 N 42ND ST",
+      "mail_city": "MILWAUKEE",
+      "mail_state": "WI",
+      "mail_zip": "53209",
+      "land_use": "8820",
+      "land_use_label": "Two Family Residential",
+      "year_built": 1917,
+      "units": 2,
+      "assessed_land": 10100.0,
+      "assessed_improvement": 98800.0,
+      "assessed_total": 108900.0,
+      "convey_date": "2026-07-06",
+      "convey_price": 634.5,
+      "owner_occupied": true,
+      "cat": "tax_delinquent",
+      "cat_label": "Tax Delinquent",
+      "signals": [
+        "tax_delinquent"
+      ],
+      "delinquent_years": [
+        "2025"
+      ],
+      "delinquent_total": 17.1,
+      "vacant_since": "",
+      "flags": [
+        "Tax delinquent",
+        "LLC / corp owner"
+      ],
+      "score": 26,
+      "record_url": "https://assessments.milwaukee.gov/PropInfoResults.asp?taxkey=3491594000"
+    },
+    {
       "taxkey": "3492107100",
       "owner": "BLANCHE WILLIAMS",
       "owner2": "",
@@ -501922,7 +502280,7 @@
     {
       "taxkey": "4581275000",
       "owner": "JOSEPH JAKUBOWSKI",
-      "owner2": "",
+      "owner2": "CHRISTIAN EDUARDO MUNIZ MUNO",
       "prop_address": "2927 W LAPHAM ST -A",
       "prop_city": "Milwaukee",
       "prop_state": "WI",
@@ -501938,8 +502296,8 @@
       "assessed_land": 8500.0,
       "assessed_improvement": 146600.0,
       "assessed_total": 155100.0,
-      "convey_date": "2014-06-30",
-      "convey_price": 165.0,
+      "convey_date": "2026-07-10",
+      "convey_price": 465.0,
       "owner_occupied": true,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",
@@ -503448,7 +503806,7 @@
     {
       "taxkey": "5520501000",
       "owner": "RAMON ANCIANI BATISTA",
-      "owner2": "MARIA ELENA FERNANDEZ MARTIN",
+      "owner2": "",
       "prop_address": "3521 S 22ND ST",
       "prop_city": "Milwaukee",
       "prop_state": "WI",
@@ -503464,8 +503822,8 @@
       "assessed_land": 32300.0,
       "assessed_improvement": 204400.0,
       "assessed_total": 236700.0,
-      "convey_date": "2024-03-01",
-      "convey_price": 585.0,
+      "convey_date": "2026-07-14",
+      "convey_price": 705.0,
       "owner_occupied": true,
       "cat": "tax_delinquent",
       "cat_label": "Tax Delinquent",

@@ -74,6 +74,9 @@ RECORDS_JSON   = DATA_DIR      / "records.json"
 DASHBOARD_JSON = DASHBOARD_DIR / "records.json"
 GHL_CSV        = DATA_DIR      / "ghl_export.csv"
 
+TRANSFER_FEE_RATE = 0.003
+TRANSFER_FEE_RELIABLE_FROM = 1994
+
 # ── Config: City of Milwaukee Open Data (CKAN) ────────────────────────────────
 CKAN_BASE   = "https://data.milwaukee.gov"
 CKAN_SQL    = f"{CKAN_BASE}/api/3/action/datastore_search_sql"
@@ -146,7 +149,8 @@ class Lead:
     assessed_improvement: Optional[float] = None
     assessed_total:       Optional[float] = None
     convey_date:  str = ""
-    convey_price: Optional[float] = None
+    convey_fee:   Optional[float] = None    # transfer fee, not the sale price
+    est_sale_price: Optional[float] = None  # derived from the fee; None if it can't be
     owner_occupied: Optional[bool] = None
     # distress signals
     cat:          str = ""          # primary category (drives the dashboard filter)
@@ -383,7 +387,8 @@ def _apply_mprop(lead: Lead, m: dict) -> None:
 
     # Last conveyance (deed) — free recent-sale signal.
     lead.convey_date  = str(m.get("CONVEY_DATE") or "").strip()[:10]
-    lead.convey_price = _num(m.get("CONVEY_FEE"))
+    lead.convey_fee   = _num(m.get("CONVEY_FEE"))
+    lead.est_sale_price = _sale_price_from_fee(lead.convey_fee, lead.convey_date)
 
 
 # ════════════════════════════════════════════════════════════════════════════
@@ -511,6 +516,19 @@ def score_lead(lead: Lead) -> None:
         if key in sig:
             lead.cat, lead.cat_label = key, label
             break
+
+
+def _sale_price_from_fee(fee: Optional[float], convey_date: str) -> Optional[float]:
+    """Wisconsin's transfer fee is $0.30 per $100 of value, so the fee gives the price to
+    within $100. MPROP's CONVEY_FEE follows that from 1994 on. Earlier years mix older fee
+    rates and what look like real prices, so they stay None, as do fee-exempt transfers (0).
+    A bulk sale seems to repeat its whole fee on each parcel, so large values can overstate one."""
+    year = _conveyance_year(convey_date)
+    if not fee or fee < 0 or year is None or year < TRANSFER_FEE_RELIABLE_FROM:
+        return None
+    if abs(fee / 0.30 - round(fee / 0.30)) > 1e-6:
+        return None
+    return float(round(fee / TRANSFER_FEE_RATE))
 
 
 def _conveyance_year(s: str) -> Optional[int]:
